@@ -492,7 +492,14 @@
         window.onload = async function() {
             // renderData(projectData);
             try {
-                const response = await fetch('data.json');
+                const response = await fetch('data.json', {
+                    method: 'GET',
+                    mode: 'cors',
+                    credentials: 'include',
+                    headers: {
+                        'Cache-Control': 'no-cache'
+                    }
+                });
                 if (!response.ok) {
                     throw new Error('network error');
                 }
@@ -627,6 +634,7 @@
                 `;
                 effectContainer.appendChild(item);
             });
+            addMedalListener();
         }
 
         // Navbar scroll effect
@@ -718,65 +726,69 @@
             });
         });
         
-        // Project modal functionality
-        const modal = document.getElementById('project-modal');
-        const modalOverlay = document.getElementById('modal-overlay');
-        const closeModal = document.getElementById('close-modal');
-        const viewProjectButtons = document.querySelectorAll('.view-project');
-        
-        // Open modal with project details
-        viewProjectButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const projectTitle = button.closest('.portfolio-item').querySelector('h3').textContent;
-                const project = projectData[projectTitle];
-                
-                if (project) {
-                    document.getElementById('modal-category').textContent = project.category;
-                    document.getElementById('modal-title').textContent = projectTitle;
-                    document.getElementById('modal-date').textContent = project.date;
-                    document.getElementById('modal-image').src = project.image;
-                    document.getElementById('modal-image').alt = projectTitle;
-                    document.getElementById('modal-description').textContent = project.description;
-                    document.getElementById('modal-timeline').textContent = project.timeline;
-                    document.getElementById('modal-link').href = project.link;
+
+        function addMedalListener() {
+            // Project modal functionality
+            const modal = document.getElementById('project-modal');
+            const modalOverlay = document.getElementById('modal-overlay');
+            const closeModal = document.getElementById('close-modal');
+            const viewProjectButtons = document.querySelectorAll('.view-project');
+            
+            // Open modal with project details
+            viewProjectButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const projectTitle = button.closest('.portfolio-item').querySelector('h3').textContent;
+                    const project = projectData[projectTitle];
                     
-                    // Populate technologies
-                    const techContainer = document.getElementById('modal-technologies');
-                    techContainer.innerHTML = '';
-                    project.technologies.forEach(tech => {
-                        const techBadge = document.createElement('span');
-                        techBadge.className = 'px-2 py-1 bg-dark rounded-full text-xs text-gray-300';
-                        techBadge.textContent = tech;
-                        techContainer.appendChild(techBadge);
-                    });
-                    
-                    // Show modal
-                    modal.classList.remove('hidden');
-                    document.body.style.overflow = 'hidden';
-                    
-                    // Animate modal in
-                    setTimeout(() => {
-                        modal.querySelector('.max-w-4xl').classList.add('animate-fade-in');
-                    }, 10);
+                    if (project) {
+                        document.getElementById('modal-category').textContent = project.category;
+                        document.getElementById('modal-title').textContent = projectTitle;
+                        document.getElementById('modal-date').textContent = project.date;
+                        document.getElementById('modal-image').src = project.image;
+                        document.getElementById('modal-image').alt = projectTitle;
+                        document.getElementById('modal-description').textContent = project.description;
+                        document.getElementById('modal-timeline').textContent = project.timeline;
+                        document.getElementById('modal-link').href = project.link;
+                        
+                        // Populate technologies
+                        const techContainer = document.getElementById('modal-technologies');
+                        techContainer.innerHTML = '';
+                        project.technologies.forEach(tech => {
+                            const techBadge = document.createElement('span');
+                            techBadge.className = 'px-2 py-1 bg-dark rounded-full text-xs text-gray-300';
+                            techBadge.textContent = tech;
+                            techContainer.appendChild(techBadge);
+                        });
+                        
+                        // Show modal
+                        modal.classList.remove('hidden');
+                        document.body.style.overflow = 'hidden';
+                        
+                        // Animate modal in
+                        setTimeout(() => {
+                            modal.querySelector('.max-w-4xl').classList.add('animate-fade-in');
+                        }, 10);
+                    }
+                });
+            });
+
+            // Close modal
+            let closeF = function closeModalFunc() {
+                modal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }
+
+            closeModal.addEventListener('click', closeF);
+            modalOverlay.addEventListener('click', closeF);
+
+            // Close modal with Escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                    modal.classList.add('hidden');
+                    document.body.style.overflow = 'auto';
                 }
             });
-        });
-        
-        // Close modal
-        function closeModalFunc() {
-            modal.classList.add('hidden');
-            document.body.style.overflow = 'auto';
         }
-        
-        closeModal.addEventListener('click', closeModalFunc);
-        modalOverlay.addEventListener('click', closeModalFunc);
-        
-        // Close modal with Escape key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-                closeModalFunc();
-            }
-        });
         
         // Initialize active filter button
         // document.querySelector('.filter-btn.active').classList.add('bg-primary', 'text-white');
