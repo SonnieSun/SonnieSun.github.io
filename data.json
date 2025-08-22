@@ -33,7 +33,7 @@
         "link": "#"
     },
     "Astral Voyager": {
-        "category": "Modeling",
+        "category": "Rendering",
         "date": "2023",
         "image": "https://picsum.photos/id/177/1200/800",
         "imageAlt": "Sci-fi spaceship 3D model",
@@ -44,7 +44,7 @@
         "link": "#"
     },
     "Crystal Keep": {
-        "category": "Modeling",
+        "category": "Rendering",
         "date": "2022",
         "image": "https://picsum.photos/id/118/1200/800",
         "imageAlt": "Fantasy castle 3D model",
@@ -55,7 +55,7 @@
         "link": "#"
     },
     "Minimalist Collection": {
-        "category": "Modeling",
+        "category": "Rendering",
         "date": "2023",
         "image": "https://picsum.photos/id/250/1200/800",
         "imageAlt": "Modern furniture 3D model",
@@ -99,7 +99,7 @@
         "link": "#"
     },
     "Elemental Forces": {
-        "category": "Special Effect",
+        "category": "PCG",
         "date": "2023",
         "image": "https://picsum.photos/id/152/1200/800",
         "imageAlt": "Explosion special effect",
@@ -110,7 +110,7 @@
         "link": "#"
     },
     "Arcane Energies": {
-        "category": "Special Effect",
+        "category": "PCG",
         "date": "2022",
         "image": "https://picsum.photos/id/141/1200/800",
         "imageAlt": "Magic spell effect",
@@ -121,7 +121,7 @@
         "link": "#"
     },
     "Atmospheric Wonders2": {
-        "category": "Special Effect",
+        "category": "PCG",
         "date": "2023",
         "image": "https://picsum.photos/id/121/1200/800",
         "imageAlt": "Atmospheric effect",

@@ -84,10 +84,10 @@
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex space-x-8">
                     <a href="#intro" class="nav-link font-medium hover:text-primary transition-colors">Introduction</a>
-                    <a href="#game" class="nav-link font-medium hover:text-primary transition-colors">Game</a>
-                    <a href="#modeling" class="nav-link font-medium hover:text-primary transition-colors">Modeling</a>
+                    <a href="#rendering" class="nav-link font-medium hover:text-primary transition-colors">Rendering</a>
+                    <a href="#pcg" class="nav-link font-medium hover:text-primary transition-colors">PCG</a>
                     <a href="#animation" class="nav-link font-medium hover:text-primary transition-colors">Animation</a>
-                    <a href="#effect" class="nav-link font-medium hover:text-primary transition-colors">Special Effect</a>
+                    <a href="#game" class="nav-link font-medium hover:text-primary transition-colors">Game</a>
                 </div>
                 
                 <!-- Mobile menu button -->
@@ -100,10 +100,10 @@
             <div id="mobile-menu" class="md:hidden hidden mt-4 bg-dark-light rounded-lg p-4 absolute left-4 right-4 shadow-lg">
                 <div class="flex flex-col space-y-4">
                     <a href="#intro" class="mobile-nav-link font-medium hover:text-primary transition-colors">Introduction</a>
-                    <a href="#game" class="mobile-nav-link font-medium hover:text-primary transition-colors">Game</a>
-                    <a href="#modeling" class="mobile-nav-link font-medium hover:text-primary transition-colors">Modeling</a>
+                    <a href="#rendering" class="mobile-nav-link font-medium hover:text-primary transition-colors">Rendering</a>
+                    <a href="#pcg" class="mobile-nav-link font-medium hover:text-primary transition-colors">PCG</a>
                     <a href="#animation" class="mobile-nav-link font-medium hover:text-primary transition-colors">Animation</a>
-                    <a href="#effect" class="mobile-nav-link font-medium hover:text-primary transition-colors">Special Effect</a>
+                    <a href="#game" class="mobile-nav-link font-medium hover:text-primary transition-colors">Game</a>
                 </div>
             </div>
         </div>
@@ -171,51 +171,51 @@
                 <button class="filter-btn active px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap" data-filter="all">
                     All Works
                 </button>
-                <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap" data-filter="game">
-                    Game
+                <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap" data-filter="rendering">
+                    Rendering
                 </button>
-                <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap" data-filter="modeling">
-                    Modeling
+                <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap" data-filter="pcg">
+                    PCG
                 </button>
                 <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap" data-filter="animation">
                     Animation
                 </button>
-                <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap" data-filter="effect">
-                    Special Effect
+                <button class="filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap" data-filter="game">
+                    Game
                 </button>
             </div>
         </div>
     </div> -->
 
-    <!-- Game Section -->
-    <section id="game" class="py-20 bg-dark relative">
+    <!-- Rendering Section -->
+    <section id="rendering" class="py-20 bg-dark relative">
         <div class="container mx-auto px-4 md:px-8">
             <div class="mb-16 text-center">
                 <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4 inline-block relative">
-                    <span class="relative z-10">Game Projects</span>
+                    <span class="relative z-10">Rendering & Lighting</span>
                     <span class="absolute -bottom-2 left-0 w-full h-3 bg-primary/20 -z-10"></span>
                 </h2>
-                <p class="text-gray-400 max-w-2xl mx-auto px-4">Immersive gaming experiences designed with focus on gameplay mechanics, storytelling, and visual aesthetics.</p>
+                <p class="text-gray-400 max-w-2xl mx-auto px-4">Designing and implementing lighting setups that establish mood, guide gameplay, and define visual clarity.</p>
             </div>
             
-            <div id="game-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <div id="render-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 
             </div>
         </div>
     </section>
 
-    <!-- Modeling Section -->
-    <section id="modeling" class="py-20 bg-dark-light relative">
+    <!-- PCG Section -->
+    <section id="pcg" class="py-20 bg-dark-light relative">
         <div class="container mx-auto px-4 md:px-8">
             <div class="mb-16 text-center">
                 <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4 inline-block relative">
-                    3D Modeling Works
+                    Procedural Content Generation
                     <span class="absolute -bottom-2 left-0 w-full h-3 bg-secondary/20 -z-10"></span>
                 </h2>
-                <p class="text-gray-400 max-w-2xl mx-auto px-4">Detailed 3D models created with attention to form, texture, and realism for various applications.</p>
+                <p class="text-gray-400 max-w-2xl mx-auto px-4">Leveraging algorithms and tools like Houdini and Unreal Engine to create dynamic, scalable, and efficient game assets and environments.</p>
             </div>
             
-            <div id="modeling-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <div id="pcg-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 
             </div>
         </div>
@@ -238,18 +238,18 @@
         </div>
     </section>
 
-    <!-- Special Effect Section -->
-    <section id="effect" class="py-20 bg-dark-light relative">
+    <!-- Game Section -->
+    <section id="game" class="py-20 bg-dark-light relative">
         <div class="container mx-auto px-4 md:px-8">
             <div class="mb-16 text-center">
                 <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4 inline-block relative">
-                    Special Effects
+                    Game projects
                     <span class="absolute -bottom-2 left-0 w-full h-3 bg-secondary/20 -z-10"></span>
                 </h2>
-                <p class="text-gray-400 max-w-2xl mx-auto px-4">Dramatic visual effects creating atmosphere, enhancing storytelling, and producing stunning visuals.</p>
+                <p class="text-gray-400 max-w-2xl mx-auto px-4">Immersive gaming experiences designed with focus on gameplay mechanics, storytelling, and visual aesthetics.</p>
             </div>
             
-            <div id="effect-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <div id="game-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 
             </div>
         </div>
@@ -524,13 +524,13 @@
         function renderData(data) {
             const listData = transformDataToList(data);
 
-            const gameProjects = listData.filter(project => project.category === 'Game');
-            const gameContainer = document.getElementById('game-list');
-            gameContainer.innerHTML = '';
-            gameProjects.forEach(project => {
+            const renderProjects = listData.filter(project => project.category === 'Rendering');
+            const renderContainer = document.getElementById('render-list');
+            renderContainer.innerHTML = '';
+            renderProjects.forEach(project => {
                 const item = document.createElement('div');
                 item.className = 'portfolio-item group';
-                item.setAttribute('data-category', 'game');
+                item.setAttribute('data-category', 'rendering');
                 item.innerHTML = `
                     <div class="relative overflow-hidden rounded-xl bg-dark-light h-full transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/10">
                         <div class="aspect-w-16 aspect-h-9 overflow-hidden">
@@ -549,16 +549,16 @@
                         </div>
                     </div>
                 `;
-                gameContainer.appendChild(item);
+                renderContainer.appendChild(item);
             });
 
-            const modelProjects = listData.filter(project => project.category === 'Modeling');
-            const modelContainer = document.getElementById('modeling-list');
-            modelContainer.innerHTML = '';
-            modelProjects.forEach(project => {
+            const pcgProjects = listData.filter(project => project.category === 'PCG');
+            const pcgContainer = document.getElementById('pcg-list');
+            pcgContainer.innerHTML = '';
+            pcgProjects.forEach(project => {
                 const item = document.createElement('div');
                 item.className = 'portfolio-item group';
-                item.setAttribute('data-category', 'modeling');
+                item.setAttribute('data-category', 'pcg');
                 item.innerHTML = `
                     <div class="relative overflow-hidden rounded-xl bg-dark h-full transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-secondary/10">
                         <div class="aspect-w-16 aspect-h-9 overflow-hidden">
@@ -577,7 +577,7 @@
                         </div>
                     </div>
                 `;
-                modelContainer.appendChild(item);
+                pcgContainer.appendChild(item);
             });
 
             const animationProjects = listData.filter(project => project.category === 'Animation');
@@ -608,13 +608,13 @@
                 animationContainer.appendChild(item);
             });
 
-            const effectProjects = listData.filter(project => project.category === 'Special Effect');
-            const effectContainer = document.getElementById('effect-list');
-            effectContainer.innerHTML = '';
-            effectProjects.forEach(project => {
+            const gameProjects = listData.filter(project => project.category === 'Game');
+            const gameContainer = document.getElementById('game-list');
+            gameContainer.innerHTML = '';
+            gameProjects.forEach(project => {
                 const item = document.createElement('div');
                 item.className = 'portfolio-item group';
-                item.setAttribute('data-category', 'effect');
+                item.setAttribute('data-category', 'game');
                 item.innerHTML = `
                     <div class="relative overflow-hidden rounded-xl bg-dark h-full transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-secondary/10">
                         <div class="aspect-w-16 aspect-h-9 overflow-hidden">
@@ -633,7 +633,7 @@
                         </div>
                     </div>
                 `;
-                effectContainer.appendChild(item);
+                gameContainer.appendChild(item);
             });
             addMedalListener();
         }
