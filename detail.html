@@ -128,7 +128,7 @@
     </nav>
 
     <!-- Project Header -->
-    <section class="pt-32 pb-16 relative overflow-hidden">
+    <section class="project-section pt-32 pb-16 relative overflow-hidden" style="display: none;">
         <div class="absolute inset-0 bg-gradient-to-br from-dark to-dark-light z-0"></div>
         <div class="absolute top-0 right-0 w-full h-full bg-[radial-gradient(circle_at_30%_20%,rgba(22,93,255,0.15),transparent_40%),radial-gradient(circle_at_70%_60%,rgba(123,97,255,0.15),transparent_40%)] z-0"></div>
         
@@ -161,7 +161,7 @@
     </section>
 
     <!-- Project Overview -->
-    <section class="py-16 bg-dark-light relative">
+    <section class="project-section py-16 bg-dark-light relative" style="display: none;">
         <div class="container mx-auto px-4 md:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
                 <div class="lg:col-span-2">
@@ -192,7 +192,7 @@
     </section>
 
     <!-- Project Gallery -->
-    <section class="py-16 bg-dark relative">
+    <section class="project-section py-16 bg-dark relative" style="display: none;">
         <div class="container mx-auto px-4 md:px-8">
             <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-10 text-center inline-block relative mx-auto">
                 <span class="relative z-10">Project Gallery</span>
@@ -227,11 +227,11 @@
     </section>
 
     <!-- Markdown -->
-     <section class="py-16 bg-dark-light relative">
+     <section class="project-section py-16 bg-dark-light relative" style="display: none;">
         <div class="container mx-auto px-4 md:px-8">
             <div class="loading">Loading project content...</div>
             <div id="markdown-content" class="lg:col-span-2">
-                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-6 inline-block relative" style="display: none;">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-6 inline-block relative">
                     Project Overview
                     <span class="absolute -bottom-2 left-0 w-1/2 h-3 bg-primary/20 -z-10"></span>
                 </h2>
@@ -247,11 +247,13 @@
                     </p>
                 </div>
             </div>
-            <div class="error" id="error-message" style="display: none;">
-                Sorry, the specified project could not be found.
-            </div>
         </div>
     </section>
+
+    <div class="loading">Loading project content...</div>
+    <div class="error" id="error-message" style="display: none;">
+        Sorry, the specified project could not be found.
+    </div>
 
     <!-- Contact CTA -->
     <section id="contact" class="py-20 bg-dark relative">

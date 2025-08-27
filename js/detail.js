@@ -177,7 +177,7 @@ function renderProject(metadata, markdownContent) {
 
     // hide loading tips, show contents
     document.querySelector('.loading').style.display = 'none';
-    document.querySelector('.markdown-content').style.display = 'block';
+    document.querySelector('.project-section').style.display = 'block';
 }
 
 function showError(message) {
