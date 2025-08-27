@@ -12,8 +12,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 async function loadProject(projectName) {
     try {
-        const mdFilePath = `./projects/${projectName}.md`;
-        const response = await fetch(mdFilePath);
+        const response = await fetch(`./projects/${projectName}.md`, {
+            method: 'GET',
+            mode: 'cors',
+            credentials: 'include',
+            headers: {
+                'Cache-Control': 'no-cache'
+            }
+        });
         if (!response.ok) {
             throw new Error(`Can't find this project: ${projectName}`);
         }
