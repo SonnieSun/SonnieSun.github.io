@@ -177,7 +177,10 @@ function renderProject(metadata, markdownContent) {
 
     // hide loading tips, show contents
     document.querySelector('.loading').style.display = 'none';
-    document.querySelector('.project-section').style.display = 'block';
+    document.querySelector('.project-section-1').style.display = 'block';
+    document.querySelector('.project-section-2').style.display = 'block';
+    document.querySelector('.project-section-3').style.display = 'block';
+    document.querySelector('.project-section-4').style.display = 'block';
 }
 
 function showError(message) {
