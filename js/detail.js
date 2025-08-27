@@ -130,7 +130,7 @@ function renderProject(metadata, markdownContent) {
     if (metadata.technologies) {
         const techElement = document.getElementById('project-technologies');
         techElement.innerHTML = Array.isArray(metadata.technologies) 
-            ? metadata.technologies.map(tech => `span class="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">${tech}</span>`).join('')
+            ? metadata.technologies.map(tech => `<span class="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">${tech}</span>`).join('')
             : `<span class="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">${metadata.technologies}</span>`;
     }
 
