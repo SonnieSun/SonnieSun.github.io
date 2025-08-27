@@ -15,7 +15,7 @@ async function loadProject(projectName) {
         const mdFilePath = `./projects/${projectName}.md`;
         const response = await fetch(mdFilePath);
         if (!response.ok) {
-            throw new Error('Can\'t find this project');
+            throw new Error(`Can't find this project: ${projectName}`);
         }
         const markdownText = await response.text();
         const { metadata, content } = parseFrontmatter(markdownText);
