@@ -8,7 +8,7 @@
         "description": "An open-world action adventure game with immersive storytelling and dynamic combat system. Players explore a vast fantasy realm filled with quests, monsters, and hidden treasures. The game features a unique morality system that affects the story progression and character interactions.",
         "technologies": ["Unreal Engine", "C++", "Blender", "Substance Painter"],
         "timeline": "14 months (Concept to Release)",
-        "link": "index.html"
+        "link": "detail.html?project=city"
     },
     "Galactic Empire": {
         "category": "Game",
@@ -19,7 +19,7 @@
         "description": "A real-time strategy game set in space with complex resource management and tactical battles. Players build their interstellar empire, research technologies, and engage in diplomatic or military conflicts with other civilizations.",
         "technologies": ["Unity", "C#", "Maya", "Photoshop"],
         "timeline": "18 months (Development)",
-        "link": "#"
+        "link": "detail.html?project=city"
     },
     "Mind Maze": {
         "category": "Game",
@@ -30,7 +30,7 @@
         "description": "A puzzle game that challenges players with mind-bending levels and progressive difficulty. The game features unique mechanics based on perspective shifts and spatial reasoning, with each world introducing new gameplay elements.",
         "technologies": ["Godot Engine", "GDScript", "Aseprite"],
         "timeline": "8 months (Concept to Release)",
-        "link": "#"
+        "link": "detail.html?project=city"
     },
     "Astral Voyager": {
         "category": "Rendering",
@@ -41,7 +41,7 @@
         "description": "High-poly sci-fi spaceship model with detailed interior and exterior textures. The model was created for a space exploration game, featuring modular components that can be customized by players.",
         "technologies": ["Blender", "Substance Painter", "ZBrush"],
         "timeline": "3 weeks (Concept to Final Model)",
-        "link": "#"
+        "link": "detail.html?project=city"
     },
     "Crystal Keep": {
         "category": "Rendering",
@@ -52,7 +52,7 @@
         "description": "Elaborate fantasy castle with intricate architectural details and surrounding environment. The model includes a main keep, courtyard, training grounds, and magical gardens with custom shaders for crystal elements.",
         "technologies": ["Maya", "Substance Designer", "Unreal Engine"],
         "timeline": "6 weeks (Modeling & Texturing)",
-        "link": "#"
+        "link": "detail.html?project=city"
     },
     "Minimalist Collection": {
         "category": "Rendering",
@@ -63,7 +63,7 @@
         "description": "Modern furniture set with clean lines and realistic material properties. The collection includes a sofa, coffee table, bookshelf, and lighting fixtures, optimized for use in architectural visualizations.",
         "technologies": ["3ds Max", "V-Ray", "Photoshop"],
         "timeline": "2 weeks (Modeling & Rendering)",
-        "link": "#"
+        "link": "detail.html?project=city"
     },
     "Warrior\"s Journey": {
         "category": "Animation",
@@ -74,7 +74,7 @@
         "description": "Character animation showcasing combat sequences and fluid movement transitions. The animation features a warrior character with a variety of attacks, defensive maneuvers, and idle animations, each with careful attention to weight and momentum.",
         "technologies": ["Maya", "Unreal Engine", "Mixamo"],
         "timeline": "4 weeks (Rigging & Animation)",
-        "link": "#"
+        "link": "detail.html?project=city"
     },
     "Seasons Change": {
         "category": "Animation",
@@ -85,7 +85,7 @@
         "description": "Environmental animation showing the transition of a landscape through four seasons. The animation features dynamic weather effects, foliage changes, and lighting shifts to create a cohesive visual narrative.",
         "technologies": ["Blender", "Houdini", "After Effects"],
         "timeline": "5 weeks (Simulation & Compositing)",
-        "link": "#"
+        "link": "detail.html?project=city"
     },
     "Tech Showcase": {
         "category": "Animation",
@@ -96,7 +96,7 @@
         "description": "Product animation highlighting the features and functionality of a futuristic device. The animation includes detailed close-ups of mechanical components, user interface interactions, and lifestyle scenarios.",
         "technologies": ["Cinema 4D", "Octane Render", "Premiere Pro"],
         "timeline": "3 weeks (Animation & Post-production)",
-        "link": "#"
+        "link": "detail.html?project=city"
     },
     "Elemental Forces": {
         "category": "PCG",
@@ -107,7 +107,7 @@
         "description": "Dynamic particle effects showcasing fire, water, earth, and air interactions. The effects were created for a fantasy action game, with each element having unique properties and behaviors when interacting with the environment and characters.",
         "technologies": ["Houdini", "Unreal Engine", "Nuke"],
         "timeline": "6 weeks (Simulation & Integration)",
-        "link": "#"
+        "link": "detail.html?project=city"
     },
     "Arcane Energies": {
         "category": "PCG",
@@ -118,7 +118,7 @@
         "description": "Mystical effects including spell casting, magical auras, and enchanted environments. The effects feature custom shaders and particle systems designed to create a cohesive magical aesthetic throughout the game world.",
         "technologies": ["Unity", "Shader Graph", "Fusion"],
         "timeline": "5 weeks (Development & Testing)",
-        "link": "#"
+        "link": "detail.html?project=city"
     },
     "Atmospheric Wonders2": {
         "category": "PCG",
@@ -129,6 +129,6 @@
         "description": "Environmental effects including weather systems, time cycles, and atmospheric phenomena. The system allows for seamless transitions between different weather conditions and times of day, with each state affecting gameplay and visuals.",
         "technologies": ["Unreal Engine", "Houdini", "Substance Designer"],
         "timeline": "7 weeks (Development & Optimization)",
-        "link": "#"
+        "link": "detail.html?project=city"
     }
 }
