@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 async function loadProject(projectName) {
     try {
-        const response = await fetch(`./projects/${projectName}.md`, {
+        const response = await fetch(`/projects/${projectName}.md`, {
             method: 'GET',
             mode: 'cors',
             credentials: 'include',
