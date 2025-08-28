@@ -1,7 +1,7 @@
 /* 精简后的 mdmdt-dark.css - 仅用于 .markdown-body 下的博文展示 */
 .markdown-body {
-  --bg-color: #1b1b1f;
-  --bg-color2: rgb(40, 42, 50);
+  --bg-color: transparent;
+  --bg-color2: transparent;
   --text-color: #d0d0d0;
   --text-grey: #464b50;
   --text-code: #bbc7fd;
