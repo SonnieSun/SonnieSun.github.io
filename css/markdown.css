@@ -184,9 +184,9 @@
   overflow: auto;
 }
 .markdown-body pre code {
-  background: transparent;
+  background: var(--color-1-0-a);
   padding: 0;
-  color: inherit;
+  color: var(--text-code);
 }
 
 /* 引用块样式 */
