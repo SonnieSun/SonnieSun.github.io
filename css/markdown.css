@@ -1,13 +1,13 @@
 /* 精简后的 mdmdt-dark.css - 仅用于 .markdown-body 下的博文展示 */
 .markdown-body {
   --bg-color: transparent;
-  --bg-color2: transparent;
+  --bg-color2: #000033;
   --text-color: #d0d0d0;
   --text-grey: #464b50;
   --text-code: #bbc7fd;
   --title-color: var(--text-color);
   --border-color: var(--text-grey);
-  --color-1: #3e69d7;
+  --color-1: #000033;
   --color-1-0-a: rgba(0, 0, 51, 0.3);
   --color-1-0-b: rgba(0, 0, 51, 0.12);
   --color-2: #f59102;
@@ -184,9 +184,9 @@
   overflow: auto;
 }
 .markdown-body pre code {
-  background: var(--color-1-0-a);
+  background: transparent;
   padding: 0;
-  color: var(--text-code);
+  color: inherit;
 }
 
 /* 引用块样式 */
