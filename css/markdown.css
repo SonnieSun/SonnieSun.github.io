@@ -8,8 +8,8 @@
   --title-color: var(--text-color);
   --border-color: var(--text-grey);
   --color-1: #3e69d7;
-  --color-1-0-a: rgba(62, 105, 215, 0.3);
-  --color-1-0-b: rgba(62, 105, 215, 0.12);
+  --color-1-0-a: rgba(0, 0, 51, 0.3);
+  --color-1-0-b: rgba(0, 0, 51, 0.12);
   --color-2: #f59102;
   --color-2-0-a: rgba(245, 145, 2, 0.3);
   --color-2-0-b: rgba(245, 145, 2, 0.12);
