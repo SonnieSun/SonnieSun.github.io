@@ -13,26 +13,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- markdown -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown.min.css">
+    <link href="./css/markdown.css" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown.min.css"> -->
     <!-- code highlight -->
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/highlight.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/styles/github-dark.min.css">
     <!-- detail -->
     <script src="./js/detail.js" defer></script>
-    <style>
-        /* 只确保盒子模型正确，不干预背景和外部布局 */
-        .markdown-body {
-            box-sizing: border-box;
-            background-color: transparent;
-        }
-        /* 可以只给移动端调整一下内边距，保持和原网站一致 */
-        @media (max-width: 767px) {
-            .markdown-body {
-                padding: 1rem !important; /* 使用 !important 确保覆盖库的默认样式 */
-            }
-        }
-    </style>
     
     <!-- Tailwind Configuration -->
     <!-- <script>
