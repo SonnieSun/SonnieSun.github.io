@@ -1,134 +1,112 @@
 {
-    "Epic Quest: Chronicles": {
-        "category": "Game",
-        "date": "2023",
-        "image": "https://picsum.photos/id/160/1200/800",
-        "imageAlt": "Action adventure game screenshot",
-        "brief": "An open-world action adventure game with immersive storytelling and dynamic combat system.",
-        "description": "An open-world action adventure game with immersive storytelling and dynamic combat system. Players explore a vast fantasy realm filled with quests, monsters, and hidden treasures. The game features a unique morality system that affects the story progression and character interactions.",
-        "technologies": ["Unreal Engine", "C++", "Blender", "Substance Painter"],
-        "timeline": "14 months (Concept to Release)",
-        "link": "detail.html?project=city"
-    },
-    "Galactic Empire": {
-        "category": "Game",
-        "date": "2022",
-        "image": "https://picsum.photos/id/110/1200/800",
-        "imageAlt": "Strategy game interface",
-        "brief": "A real-time strategy game set in space with complex resource management and tactical battles.",
-        "description": "A real-time strategy game set in space with complex resource management and tactical battles. Players build their interstellar empire, research technologies, and engage in diplomatic or military conflicts with other civilizations.",
-        "technologies": ["Unity", "C#", "Maya", "Photoshop"],
-        "timeline": "18 months (Development)",
-        "link": "detail.html?project=city"
-    },
-    "Mind Maze": {
-        "category": "Game",
-        "date": "2023",
-        "image": "https://picsum.photos/id/237/1200/800",
-        "imageAlt": "Puzzle game level design",
-        "brief": "A puzzle game that challenges players with mind-bending levels and progressive difficulty.",
-        "description": "A puzzle game that challenges players with mind-bending levels and progressive difficulty. The game features unique mechanics based on perspective shifts and spatial reasoning, with each world introducing new gameplay elements.",
-        "technologies": ["Godot Engine", "GDScript", "Aseprite"],
-        "timeline": "8 months (Concept to Release)",
-        "link": "detail.html?project=city"
-    },
-    "Astral Voyager": {
+    "Cyberpunk Cityscape": {
         "category": "Rendering",
-        "date": "2023",
+        "date": "2025",
         "image": "https://picsum.photos/id/177/1200/800",
-        "imageAlt": "Sci-fi spaceship 3D model",
-        "brief": "High-poly sci-fi spaceship model with detailed interior and exterior textures.",
-        "description": "High-poly sci-fi spaceship model with detailed interior and exterior textures. The model was created for a space exploration game, featuring modular components that can be customized by players.",
-        "technologies": ["Blender", "Substance Painter", "ZBrush"],
-        "timeline": "3 weeks (Concept to Final Model)",
-        "link": "detail.html?project=city"
+        "imageAlt": "Cyberpunk city environment",
+        "brief": "Created a large-scale cyberpunk city environment.",
+        "description": "A large-scale cyberpunk city environment with atmospheric effects such as fog, glowing billboards, neon reflections, and Niagara-based portals connecting city zones. Cinematic cityscape renders emphasize mood, lighting, and vertical scale.",
+        "technologies": ["Unreal Engine5.4", "Cinema4D", "After Effects"],
+        "timeline": "6 weeks",
+        "link": "detail.html?project=01_cyberpunk_cityscape"
     },
-    "Crystal Keep": {
+    "Abandoned Land": {
         "category": "Rendering",
-        "date": "2022",
+        "date": "2024",
         "image": "https://picsum.photos/id/118/1200/800",
-        "imageAlt": "Fantasy castle 3D model",
-        "brief": "Elaborate fantasy castle with intricate architectural details and surrounding environment.",
-        "description": "Elaborate fantasy castle with intricate architectural details and surrounding environment. The model includes a main keep, courtyard, training grounds, and magical gardens with custom shaders for crystal elements.",
-        "technologies": ["Maya", "Substance Designer", "Unreal Engine"],
-        "timeline": "6 weeks (Modeling & Texturing)",
-        "link": "detail.html?project=city"
+        "imageAlt": "Abandoned medieval architecture",
+        "brief": "A cinematic scene of abandoned medieval architecture with volumetric fog and blended materials.",
+        "description": "Created a cinematic scene of abandoned medieval architecture with volumetric fog and blended materials and realistic cloth simulation using Marvelous Designer, integrated into an animated short.",
+        "technologies": ["Unreal Engine5.1", "Marvelous Designer", "After Effects"],
+        "timeline": "6 weeks",
+        "link": "detail.html?project=05_abandoned_land"
     },
-    "Minimalist Collection": {
+    "Cliff": {
         "category": "Rendering",
-        "date": "2023",
+        "date": "2024",
         "image": "https://picsum.photos/id/250/1200/800",
-        "imageAlt": "Modern furniture 3D model",
-        "brief": "Modern furniture set with clean lines and realistic material properties.",
-        "description": "Modern furniture set with clean lines and realistic material properties. The collection includes a sofa, coffee table, bookshelf, and lighting fixtures, optimized for use in architectural visualizations.",
-        "technologies": ["3ds Max", "V-Ray", "Photoshop"],
-        "timeline": "2 weeks (Modeling & Rendering)",
-        "link": "detail.html?project=city"
+        "imageAlt": "Cliffside environment",
+        "brief": "A cliffside environment using path tracing workflow and foliage painting tools.",
+        "description": "A cliffside environment uses path tracing workflow and foliage painting tools. Implemented dynamic water material and Niagara particle systems to simulate flocks of birds.",
+        "technologies": ["Unreal Engine5.3", "Cinema4D"],
+        "timeline": "4 weeks",
+        "link": "detail.html?project=06_cliff"
     },
-    "Warrior\"s Journey": {
+    "Translucent Material Design": {
+        "category": "Rendering",
+        "date": "2024",
+        "image": "https://picsum.photos/id/250/1200/800",
+        "imageAlt": "Translucent Material",
+        "brief": "Developed physically-based translucent shaders, showcasing accurate light scattering and transmission effects.",
+        "description": "Developed physically-based translucent shaders for lanterns, jade, and crystals, showcasing accurate light scattering and transmission effects.",
+        "technologies": ["Unreal Engine5.1"],
+        "timeline": "2 weeks",
+        "link": "detail.html?project=07_translucent_material_design"
+    },
+    "Concrete Jungle": {
+        "category": "PCG",
+        "date": "2025",
+        "image": "https://picsum.photos/id/152/1200/800",
+        "imageAlt": "Procedural Building Generation",
+        "brief": "A procedural content generation tool for automatic building placement along defined road layouts.",
+        "description": "A procedural content generation tool for automatic building placement along defined road layouts. Enabled scalable cyberpunk city creation, improving workflow efficiency for level design.",
+        "technologies": ["Unreal Engine5.4"],
+        "timeline": "8 weeks",
+        "link": "detail.html?project=02_concrete_jungle"
+    },
+    "Hillside Generation": {
+        "category": "PCG",
+        "date": "2025",
+        "image": "https://picsum.photos/id/141/1200/800",
+        "imageAlt": "Procedural Hillside Generation",
+        "brief": "A procedural generation pipeline for rocks, moss, vines, and pathways using PCG nodes.",
+        "description": "A procedural generation pipeline for rocks, moss, vines, and pathways using PCG nodes. Assembled a natural mountain landscape and rendered an animated short showcasing dynamic environments.",
+        "technologies": ["Unreal Engine5.4"],
+        "timeline": "7 weeks",
+        "link": "detail.html?project=08_hillside_generation"
+    },
+    "The Door Between Worlds": {
         "category": "Animation",
-        "date": "2023",
+        "date": "2025",
         "image": "https://picsum.photos/id/235/1200/800",
-        "imageAlt": "Character animation sequence",
+        "imageAlt": "Character Animation Sequence",
         "brief": "Character animation showcasing combat sequences and fluid movement transitions.",
         "description": "Character animation showcasing combat sequences and fluid movement transitions. The animation features a warrior character with a variety of attacks, defensive maneuvers, and idle animations, each with careful attention to weight and momentum.",
-        "technologies": ["Maya", "Unreal Engine", "Mixamo"],
-        "timeline": "4 weeks (Rigging & Animation)",
-        "link": "detail.html?project=city"
+        "technologies": ["Unreal Engine5.4", "Maya", "Mixamo"],
+        "timeline": "8 weeks",
+        "link": "detail.html?project=04_the_door_between_worlds"
     },
-    "Seasons Change": {
+    "Dusk": {
         "category": "Animation",
-        "date": "2022",
+        "date": "2025",
         "image": "https://picsum.photos/id/188/1200/800",
-        "imageAlt": "Environmental animation scene",
-        "brief": "Environmental animation showing the transition of a landscape through four seasons.",
-        "description": "Environmental animation showing the transition of a landscape through four seasons. The animation features dynamic weather effects, foliage changes, and lighting shifts to create a cohesive visual narrative.",
-        "technologies": ["Blender", "Houdini", "After Effects"],
-        "timeline": "5 weeks (Simulation & Compositing)",
-        "link": "detail.html?project=city"
+        "imageAlt": "Cinematic Car Animation",
+        "brief": "A cinematic short film with dynamic, speed-focused camera work.",
+        "description": "Rigged and animated a car, producing a cinematic short film with dynamic, speed-focused camera work. Developed vehicle control logic using Blueprints to support realistic driving behavior.",
+        "technologies": ["Unreal Engine5.4", "EMBERGEN", "Maya"],
+        "timeline": "4 months",
+        "link": "detail.html?project=10_dusk"
     },
-    "Tech Showcase": {
-        "category": "Animation",
-        "date": "2023",
-        "image": "https://picsum.photos/id/200/1200/800",
-        "imageAlt": "Product animation showcase",
-        "brief": "Product animation highlighting the features and functionality of a futuristic device.",
-        "description": "Product animation highlighting the features and functionality of a futuristic device. The animation includes detailed close-ups of mechanical components, user interface interactions, and lifestyle scenarios.",
-        "technologies": ["Cinema 4D", "Octane Render", "Premiere Pro"],
-        "timeline": "3 weeks (Animation & Post-production)",
-        "link": "detail.html?project=city"
+    "Nexus Demo": {
+        "category": "Game",
+        "date": "2025",
+        "image": "https://picsum.photos/id/160/1200/800",
+        "imageAlt": "Nexus Gameplay Demo",
+        "brief": "A short interactive gameplay demo set in a futuristic warehouse involving a theft scenario.",
+        "description": "A short interactive gameplay demo set in a futuristic warehouse involving a theft scenario. Implemented stealth mechanics requiring the protagonist to avoid guards and navigate the environment.",
+        "technologies": ["Unreal Engine5.4", "Maya", "Cinema4D"],
+        "timeline": "9 months",
+        "link": "detail.html?project=03_nexus"
     },
-    "Elemental Forces": {
-        "category": "PCG",
-        "date": "2023",
-        "image": "https://picsum.photos/id/152/1200/800",
-        "imageAlt": "Explosion special effect",
-        "brief": "Dynamic particle effects showcasing fire, water, earth, and air interactions.",
-        "description": "Dynamic particle effects showcasing fire, water, earth, and air interactions. The effects were created for a fantasy action game, with each element having unique properties and behaviors when interacting with the environment and characters.",
-        "technologies": ["Houdini", "Unreal Engine", "Nuke"],
-        "timeline": "6 weeks (Simulation & Integration)",
-        "link": "detail.html?project=city"
-    },
-    "Arcane Energies": {
-        "category": "PCG",
-        "date": "2022",
-        "image": "https://picsum.photos/id/141/1200/800",
-        "imageAlt": "Magic spell effect",
-        "brief": "Mystical effects including spell casting, magical auras, and enchanted environments.",
-        "description": "Mystical effects including spell casting, magical auras, and enchanted environments. The effects feature custom shaders and particle systems designed to create a cohesive magical aesthetic throughout the game world.",
-        "technologies": ["Unity", "Shader Graph", "Fusion"],
-        "timeline": "5 weeks (Development & Testing)",
-        "link": "detail.html?project=city"
-    },
-    "Atmospheric Wonders2": {
-        "category": "PCG",
-        "date": "2023",
-        "image": "https://picsum.photos/id/121/1200/800",
-        "imageAlt": "Atmospheric effect",
-        "brief": "Environmental effects including weather systems, time cycles, and atmospheric phenomena.",
-        "description": "Environmental effects including weather systems, time cycles, and atmospheric phenomena. The system allows for seamless transitions between different weather conditions and times of day, with each state affecting gameplay and visuals.",
-        "technologies": ["Unreal Engine", "Houdini", "Substance Designer"],
-        "timeline": "7 weeks (Development & Optimization)",
-        "link": "detail.html?project=city"
+    "Lost": {
+        "category": "Game",
+        "date": "2025",
+        "image": "https://picsum.photos/id/110/1200/800",
+        "imageAlt": "Lost Gameplay Demo",
+        "brief": "A first-person character system with weapon handling and shooting mechanics.",
+        "description": "A first-person character system with weapon handling and shooting mechanics. Designed AI enemy behavior with distinct movement and attack patterns.",
+        "technologies": ["Unreal Engine5.4", "Maya", "Cinema4D"],
+        "timeline": "3 months",
+        "link": "detail.html?project=09_lost"
     }
 }
