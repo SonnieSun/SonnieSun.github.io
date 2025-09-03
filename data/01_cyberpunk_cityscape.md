@@ -4,7 +4,7 @@ timeline: Nov 2024 - Dec 2024
 category: Rendering
 role: Independent Developer
 main_video: https://assets.sonniesun.com/project_cybercity.MP4
-main_img: https://assets.sonniesun.com/p00_00.png
+main_img: https://assets.sonniesun.com/p01_00.png
 main_img_alt: city image
 overview: As lead designer, I was responsible for developing the core gameplay mechanics, quest design, character progression system, and overseeing the implementation of the open-world environment. The project involved a small team of 5 developers working over 6 months.
 technologies: ["PCG", "Environments", "Houdini", "Unreal Engine 5", "Python"]
