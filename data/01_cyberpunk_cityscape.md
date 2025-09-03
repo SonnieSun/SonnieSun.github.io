@@ -1,5 +1,5 @@
 ---
-title: "Cyberpunk Cityscape：Environment & Lighting Rendering"
+title: "Cyberpunk Cityscape"
 timeline: Nov 2024 - Dec 2024
 category: Rendering
 role: Independent Developer
