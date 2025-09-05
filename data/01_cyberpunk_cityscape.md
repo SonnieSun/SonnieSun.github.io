@@ -66,8 +66,7 @@ A series of custom materials and VFX were developed, including emissive window s
 <img src="https://assets.sonniesun.com/p01_c_08.png" alt="Markdown Pic 08" style="display: block; max-width: min(100%, 800px); height: auto;" />
 - Designed holographic projections and animated billboards as essential cyberpunk visual motifs.
 <img src="https://assets.sonniesun.com/p01_c_09.png" alt="Markdown Pic 09" style="display: block; max-width: min(100%, 400px); height: auto;" />
-- Generated glitch effects in After Effects using random seed and distortion strength parameters.
-- Integrated animated textures into Unreal Engine materials.
+- Generated glitch effects in After Effects using random seed and warp amplitude parameters.
 <img src="https://assets.sonniesun.com/p01_c_10.gif" alt="Markdown Pic 10" style="display: block; max-width: min(100%, 450px); height: auto;" />
 - Result: dynamic holograms and advertising signs with strong sci-fi aesthetics.
 
