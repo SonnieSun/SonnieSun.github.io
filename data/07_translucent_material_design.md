@@ -4,7 +4,7 @@ timeline: Oct 2024 - Nov 2024
 category: Rendering
 role: Sole Developer
 main_video: 
-main_img: https://assets.sonniesun.com/p07_candle_02.png
+main_img: https://assets.sonniesun.com/p07_lantern_03.png
 main_img_alt: translucent material image
 overview: As lead designer, I was responsible for developing the core gameplay mechanics, quest design, character progression system, and overseeing the implementation of the open-world environment. The project involved a small team of 5 developers working over 6 months.
 technologies: ["Unreal Engine 5.1"]

@@ -6,7 +6,7 @@ role: Sole Developer
 main_video: https://assets.sonniesun.com/project_cybercity.MP4
 main_img: https://assets.sonniesun.com/p01_00.png
 main_img_alt: city layout image
-overview: As lead designer, I was responsible for developing the core gameplay mechanics, quest design, character progression system, and overseeing the implementation of the open-world environment. The project involved a small team of 5 developers working over 6 months.
+overview: This project, Cyberpunk Cityscape – Environment & Lighting Rendering, explores the creation of a cyberpunk-inspired night city environment with a strong focus on composition, atmosphere, and material-driven visual effects.
 technologies: ["Unreal Engine 5.4", "Cinema4D", "After Effects"]
 img1: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
 img1_alt: img1
@@ -24,69 +24,68 @@ img6_alt: img6
 
 ## Project Overview
 
-"幻境之城"是对使用SideFX Houdini和Unreal Engine 5进行大规模程序化城市生成的技术探索...
+This project, Cyberpunk Cityscape – Environment & Lighting Rendering, explores the creation of a cyberpunk-inspired night city environment with a strong focus on composition, atmosphere, and material-driven visual effects.
+The goal was to design a cinematic cityscape that captures the essence of a futuristic metropolis, illuminated by neon lights, holographic billboards, and animated sci-fi elements. The process began with a basic blockout of the city layout, followed by iterative refinement of lighting, fog, and model placement to establish depth and mood.
+A series of custom materials and VFX were developed, including emissive window shaders, dynamic holographic projections, flowing neon road surfaces, and a sci-fi portal built in Niagara. Together, these components enhance the narrative and immerse the viewer in a visually rich cyberpunk atmosphere.
 
 ## Technical Breakdown
 
-### 1 Composition & Visual Design
-
+### 01 Basic Layout Design
 <!-- 构图草稿 -->
-![Markdown标志](https://markdown-here.com/img/icon256.png "Markdown Logo")
+<!-- ![Markdown标志](https://markdown-here.com/img/icon256.png "Markdown Logo") -->
+*(Blockout with geometric primitives)*
+- Established the overall city layout and positioned key landmark buildings.
+- Added placeholder elements such as elongated white strips in the sky to represent spaceships.
 
-- Challenge: Managing a large-scale city environment while maintaining depth, readability, and a strong cyberpunk aesthetic.
+### 02. Base Lighting, Fog, and City Foundation
+*(Layout with initial lighting and fog)*
+- Introduced distance fog to create atmospheric depth and establish the overall mood.
+- Added a foundational city ground plane to define spatial layers.
 
-- Solution:
-    - Applied modular modeling and hierarchical layout to achieve clear foreground, midground, and background layers.
-    - Referenced cinematic photography techniques (leading lines, symmetry, light–dark contrast) to guide the viewer’s eye.
-    - Positioned neon signs and billboards strategically to establish visual focal points.
+### 03. Replacing Key Buildings
+*(Layout with replaced landmark models)*
+- Swapped geometric placeholders with detailed building models.
+- Adjusted placement to reinforce composition and visual hierarchy.
 
-### 2 Nighttime Lighting & Atmospherics
+### 04. Completing City Blocks with Secondary Models
+*(Layout with full city block models)*
+- Added all secondary buildings for both foreground and background districts.
+- Modified materials of certain structures to better integrate them into the overall atmosphere.
 
-<!-- 灯光 -->
-![Markdown标志](https://markdown-here.com/img/icon256.png "Markdown Logo")
+### 05. Nighttime Environment Lighting
+*(Layout with atmospheric lighting applied)*
+- Reduced global skylight intensity to achieve a darker night mood.
+- Introduced localized light sources such as neon lamps and streetlights to enrich the scene.
 
-- Challenge: Creating a convincing night scene with volumetric fog, neon lighting, and reflective surfaces.
+### 06. Emissive Window Materials
+*(Layout with emissive windows applied)*
+- Created glowing window materials to simulate illuminated interiors at night.
+- Added subtle variations in brightness and color for a more natural, lived-in effect.
 
-- Solution:
-    - Utilized Volumetric Fog and Exponential Height Fog in UE5 to create layered atmospheric depth.
-    - Combined point lights and area lights to simulate neon and street lighting, enhanced with Lumen for global illumination.
-    - Applied post-processing effects such as Bloom and Color Grading to strengthen mood and color harmony.
+### 07. Holograms & Billboards
+*(Layout with glowing holograms and billboards added)*
+- Designed holographic projections and animated billboards as essential cyberpunk visual motifs.
+- Workflow example:
+  - Generated glitch effects in After Effects using random seed and distortion strength parameters.
+  - Integrated animated textures into Unreal Engine materials.
+- Result: dynamic holograms and advertising signs with strong sci-fi aesthetics.
 
-### 3 Hologram & Billboard Materials
+### 08. Animated Sci-fi Roads
+*(Layout with glowing roads and portal added)*
+- Modeled road structures using C4D’s Emitter system.
+- Designed emissive road materials with animated UVs to create flowing light streaks.
+- Layered multiple effects for a more futuristic look.
 
-<!-- PLUS：HUD的制作细节 -->
-![Markdown标志](https://markdown-here.com/img/icon256.png "Markdown Logo")
-
-- Challenge: Designing glowing holographic projections and animated billboards with strong sci-fi aesthetics while keeping performance in mind.
-
-- Solution:
-    - Built emissive materials with Fresnel edge glow to enhance the holographic feel.
-    - Added shader animations for flickering text, scanlines, and distortion effects.
-    - Optimized transparency blending to reduce performance overhead.
-
-### 4 Animated Sci-fi Road Material
-
-<!-- PLUS：刘光效果制作细节 -->
-- Challenge: Roads needed dynamic flowing light effects to fit the futuristic theme.
-
-- Solution:
-
-    - Created animated materials using UV panning combined with gradient masks.
-    - Layered multiple light streaks with different speeds and intensities via Lerp nodes.
-    - Adjusted brightness and timing to integrate smoothly with the overall city lighting.
-
-### 5 Sci-fi Portal VFX
-
-<!-- PLUS：传送门制作细节 -->
-- Challenge: Designing a portal with strong sci-fi energy and visual impact.
-
-- Solution:
-    - Used Niagara particle systems for swirling particles and energy bursts.
-    - Applied World Position Offset in materials to simulate spatial distortion.
-    - Combined animated shaders with particle effects to create dynamic energy fluctuations inside the portal.
+### 09. Sci-fi Portal VFX
+*(Portal with Niagara particles)*
+- Built a portal effect using Niagara particle systems in UE5.
+- Combined particle swirls, energy bursts, and distortion materials to simulate a high-energy sci-fi gateway.
 
 ## Takeaways
 
-- Gained experience in balancing artistic direction with real-time performance optimization.
-- Developed a deeper understanding of fog–light interaction and dynamic materials in cyberpunk aesthetics.
-- Future improvements could include further optimizing holograms and particle effects for lower-end hardware.
+- Strengthened my ability to combine artistic direction with technical implementation, balancing composition, lighting, and shader work.
+- Gained experience in using fog and lighting interactions to control depth, atmosphere, and color harmony in large-scale environments.
+- Developed workflows for animated and emissive materials, as well as integrating external tools (e.g., After Effects for glitch textures, C4D for geometry emitters).
+- Explored real-time VFX design in Unreal Engine, including particle-based energy effects and material-driven distortion.
+- Reflected on the importance of performance optimization in visually complex scenes, and identified opportunities to improve efficiency in future projects.
+
