@@ -108,7 +108,7 @@ function renderProject(metadata, markdownContent) {
     
     // add Hero images/videos
     const videoElement = document.getElementById('project-video');
-    if (metadata.main_video) {
+    if (metadata.main_video && metadata.main_video.length > 0) {
         videoElement.innerHTML = `
             <video controls style="width: 100%; border-radius: 8px;">
                 <source src="${metadata.main_video}" type="video/mp4">

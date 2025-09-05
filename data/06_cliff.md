@@ -5,7 +5,7 @@ category: Rendering
 role: Independent Developer
 main_video: https://assets.sonniesun.com/project_cybercity.MP4
 main_img: hhttps://assets.sonniesun.com/p06_00.png
-main_img_alt: city image
+main_img_alt: cliff environment
 overview: As lead designer, I was responsible for developing the core gameplay mechanics, quest design, character progression system, and overseeing the implementation of the open-world environment. The project involved a small team of 5 developers working over 6 months.
 technologies: ["PCG", "Environments", "Houdini", "Unreal Engine 5", "Python"]
 img1: https://assets.sonniesun.com/p06_01.png

@@ -5,7 +5,7 @@ category: PCG
 role: Independent Developer
 main_video: https://assets.sonniesun.com/project_cybercity.MP4
 main_img: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
-main_img_alt: city image
+main_img_alt: hillside environment image
 overview: As lead designer, I was responsible for developing the core gameplay mechanics, quest design, character progression system, and overseeing the implementation of the open-world environment. The project involved a small team of 5 developers working over 6 months.
 technologies: ["PCG", "Environments", "Houdini", "Unreal Engine 5", "Python"]
 img1: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
