@@ -37,32 +37,32 @@ A series of custom materials and VFX were developed, including emissive window s
 - Established the overall city layout and positioned key landmark buildings.
 - Added placeholder elements such as elongated white strips in the sky to represent spaceships.
 
-### 02. Base Lighting, Fog, and City Foundation
+### 02 Base Lighting, Fog, and City Foundation
 *(Layout with initial lighting and fog)*
 - Introduced distance fog to create atmospheric depth and establish the overall mood.
 - Added a foundational city ground plane to define spatial layers.
 
-### 03. Replacing Key Buildings
+### 03 Replacing Key Buildings
 *(Layout with replaced landmark models)*
 - Swapped geometric placeholders with detailed building models.
 - Adjusted placement to reinforce composition and visual hierarchy.
 
-### 04. Completing City Blocks with Secondary Models
+### 04 Completing City Blocks with Secondary Models
 *(Layout with full city block models)*
 - Added all secondary buildings for both foreground and background districts.
 - Modified materials of certain structures to better integrate them into the overall atmosphere.
 
-### 05. Nighttime Environment Lighting
+### 05 Nighttime Environment Lighting
 *(Layout with atmospheric lighting applied)*
 - Reduced global skylight intensity to achieve a darker night mood.
 - Introduced localized light sources such as neon lamps and streetlights to enrich the scene.
 
-### 06. Emissive Window Materials
+### 06 Emissive Window Materials
 *(Layout with emissive windows applied)*
 - Created glowing window materials to simulate illuminated interiors at night.
 - Added subtle variations in brightness and color for a more natural, lived-in effect.
 
-### 07. Holograms & Billboards
+### 07 Holograms & Billboards
 *(Layout with glowing holograms and billboards added)*
 - Designed holographic projections and animated billboards as essential cyberpunk visual motifs.
 - Workflow example:
@@ -70,13 +70,13 @@ A series of custom materials and VFX were developed, including emissive window s
   - Integrated animated textures into Unreal Engine materials.
 - Result: dynamic holograms and advertising signs with strong sci-fi aesthetics.
 
-### 08. Animated Sci-fi Roads
+### 08 Animated Sci-fi Roads
 *(Layout with glowing roads and portal added)*
 - Modeled road structures using C4D’s Emitter system.
 - Designed emissive road materials with animated UVs to create flowing light streaks.
 - Layered multiple effects for a more futuristic look.
 
-### 09. Sci-fi Portal VFX
+### 09 Sci-fi Portal VFX
 *(Portal with Niagara particles)*
 - Built a portal effect using Niagara particle systems in UE5.
 - Combined particle swirls, energy bursts, and distortion materials to simulate a high-energy sci-fi gateway.
