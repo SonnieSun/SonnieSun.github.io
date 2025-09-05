@@ -87,9 +87,9 @@ A series of custom materials and VFX were developed, including emissive window s
 
 ## Takeaways
 
-- Strengthened my ability to combine artistic direction with technical implementation, balancing composition, lighting, and shader work.
-- Gained experience in using fog and lighting interactions to control depth, atmosphere, and color harmony in large-scale environments.
-- Developed workflows for animated and emissive materials, as well as integrating external tools (e.g., After Effects for glitch textures, C4D for geometry emitters).
-- Explored real-time VFX design in Unreal Engine, including particle-based energy effects and material-driven distortion.
-- Reflected on the importance of performance optimization in visually complex scenes, and identified opportunities to improve efficiency in future projects.
+1. Strengthened my ability to combine artistic direction with technical implementation, balancing composition, lighting, and shader work.
+2. Gained experience in using fog and lighting interactions to control depth, atmosphere, and color harmony in large-scale environments.
+3. Developed workflows for animated and emissive materials, as well as integrating external tools (e.g., After Effects for glitch textures, C4D for geometry emitters).
+4. Explored real-time VFX design in Unreal Engine, including particle-based energy effects and material-driven distortion.
+5. Reflected on the importance of performance optimization in visually complex scenes, and identified opportunities to improve efficiency in future projects.
 
