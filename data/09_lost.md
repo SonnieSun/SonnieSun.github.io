@@ -2,12 +2,12 @@
 title: "Lost"
 timeline: Feb 2025 - Apr 2025
 category: Game
-role: Independent Developer
+role: Sole Developer
 main_video: https://assets.sonniesun.com/project_cybercity.MP4
 main_img: https://assets.sonniesun.com/p05_03.png
 main_img_alt: game demo image
 overview: As lead designer, I was responsible for developing the core gameplay mechanics, quest design, character progression system, and overseeing the implementation of the open-world environment. The project involved a small team of 5 developers working over 6 months.
-technologies: ["PCG", "Environments", "Houdini", "Unreal Engine 5", "Python"]
+technologies: ["Unreal Engine 5.4", "Maya", "Cinema4D"]
 img1: https://assets.sonniesun.com/p05_01.png
 img1_alt: img1
 img2: https://assets.sonniesun.com/p05_02.png
