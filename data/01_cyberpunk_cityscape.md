@@ -8,17 +8,17 @@ main_img: https://assets.sonniesun.com/p01_00.png
 main_img_alt: city layout image
 overview: This project, Cyberpunk Cityscape – Environment & Lighting Rendering, explores the creation of a cyberpunk-inspired night city environment with a strong focus on composition, atmosphere, and material-driven visual effects.
 technologies: ["Unreal Engine 5.4", "Cinema4D", "After Effects"]
-img1: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
+img1: https://assets.sonniesun.com/p01_01.png
 img1_alt: img1
-img2: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
+img2: https://assets.sonniesun.com/p01_02.png
 img2_alt: img2
-img3: https://picsum.photos/id/146/1600/800
+img3: https://assets.sonniesun.com/p01_03.png
 img3_alt: img3
-img4: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
+img4: https://assets.sonniesun.com/p01_04.png
 img4_alt: img4
-img5: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
+img5: https://assets.sonniesun.com/p01_05.png
 img5_alt: img5
-img6: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
+img6: https://assets.sonniesun.com/p01_06.png
 img6_alt: img6
 ---
 
@@ -31,53 +31,57 @@ A series of custom materials and VFX were developed, including emissive window s
 ## Technical Breakdown
 
 ### 01 Basic Layout Design
-<!-- 构图草稿 -->
-<!-- ![Markdown标志](https://markdown-here.com/img/icon256.png "Markdown Logo") -->
-*(Blockout with geometric primitives)*
+
+![Markdown Pic 01](https://assets.sonniesun.com/p01_c_01.png)
 - Established the overall city layout and positioned key landmark buildings.
 - Added placeholder elements such as elongated white strips in the sky to represent spaceships.
 
 ### 02 Base Lighting, Fog, and City Foundation
-*(Layout with initial lighting and fog)*
+![Markdown Pic 02](https://assets.sonniesun.com/p01_c_02.png)
 - Introduced distance fog to create atmospheric depth and establish the overall mood.
 - Added a foundational city ground plane to define spatial layers.
 
 ### 03 Replacing Key Buildings
-*(Layout with replaced landmark models)*
+![Markdown Pic 03](https://assets.sonniesun.com/p01_c_03.png)
 - Swapped geometric placeholders with detailed building models.
 - Adjusted placement to reinforce composition and visual hierarchy.
 
 ### 04 Completing City Blocks with Secondary Models
-*(Layout with full city block models)*
+![Markdown Pic 04](https://assets.sonniesun.com/p01_c_04.png)
 - Added all secondary buildings for both foreground and background districts.
 - Modified materials of certain structures to better integrate them into the overall atmosphere.
 
 ### 05 Nighttime Environment Lighting
-*(Layout with atmospheric lighting applied)*
+![Markdown Pic 05](https://assets.sonniesun.com/p01_c_05.png)
 - Reduced global skylight intensity to achieve a darker night mood.
 - Introduced localized light sources such as neon lamps and streetlights to enrich the scene.
 
 ### 06 Emissive Window Materials
-*(Layout with emissive windows applied)*
+![Markdown Pic 06](https://assets.sonniesun.com/p01_c_06.png)
 - Created glowing window materials to simulate illuminated interiors at night.
+![Markdown Pic 07](https://assets.sonniesun.com/p01_c_07.png)
 - Added subtle variations in brightness and color for a more natural, lived-in effect.
 
 ### 07 Holograms & Billboards
-*(Layout with glowing holograms and billboards added)*
+![Markdown Pic 08](https://assets.sonniesun.com/p01_c_08.png)
 - Designed holographic projections and animated billboards as essential cyberpunk visual motifs.
+![Markdown Pic 09](https://assets.sonniesun.com/p01_c_09.png)
 - Workflow example:
   - Generated glitch effects in After Effects using random seed and distortion strength parameters.
   - Integrated animated textures into Unreal Engine materials.
+![Markdown Pic 10](https://assets.sonniesun.com/p01_c_10.gif)
 - Result: dynamic holograms and advertising signs with strong sci-fi aesthetics.
 
 ### 08 Animated Sci-fi Roads
-*(Layout with glowing roads and portal added)*
+![Markdown Pic 11](https://assets.sonniesun.com/p01_c_11.png)
 - Modeled road structures using C4D’s Emitter system.
+![Markdown Pic 12](https://assets.sonniesun.com/p01_c_12.png)
 - Designed emissive road materials with animated UVs to create flowing light streaks.
+![Markdown Pic 13](https://assets.sonniesun.com/p01_c_13.png)
 - Layered multiple effects for a more futuristic look.
 
 ### 09 Sci-fi Portal VFX
-*(Portal with Niagara particles)*
+![Markdown Pic 14](https://assets.sonniesun.com/p01_c_14.jpg)
 - Built a portal effect using Niagara particle systems in UE5.
 - Combined particle swirls, energy bursts, and distortion materials to simulate a high-energy sci-fi gateway.
 
