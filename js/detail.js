@@ -116,7 +116,7 @@ function renderProject(metadata, markdownContent) {
             </video>
         `;
     } else if (metadata.main_img) {
-        videoElement.innerHTML = `<img src="${metadata.main_image}" alt="${metadata.main_img_alt}" class="w-full h-auto">`;
+        videoElement.innerHTML = `<img src="${metadata.main_img}" alt="${metadata.main_img_alt}" class="w-full h-auto">`;
     }
 
     if (metadata.overview) {
