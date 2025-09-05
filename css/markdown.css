@@ -138,9 +138,11 @@
   margin-left: 0;
 }
 .markdown-body ul {
+  list-style: disc;
   padding-left: 36px;
 }
 .markdown-body ol {
+  list-style: decimal; 
   padding-left: 40px;
 }
 .markdown-body li {
