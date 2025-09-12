@@ -39,42 +39,42 @@ To add narrative depth, a masked protagonist with a dynamic cloak—simulated in
 
 ### 02 Model Replacement & Initial Lighting
 
-<img src="https://assets.sonniesun.com/p05_c_02.png" alt="Markdown Pic 01" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p05_c_02.png" alt="Markdown Pic 02" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
 - Replaced placeholder geometry with finalized building assets and nearby rock formations.
 Established the initial lighting atmosphere to set the overall mood of the environment.
 
 ### 03 Fog & Scene Refinement
 
-<img src="https://assets.sonniesun.com/p05_c_03.png" alt="Markdown Pic 01" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p05_c_03.png" alt="Markdown Pic 03" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
 - Added fog layers to enhance atmospheric depth and mystery.
 - Detailed the ground with rock clusters, midground medieval structures, and distant mountain silhouettes.
 
 ### 04 Water Shader & Material Blending
 
-<img src="https://assets.sonniesun.com/p05_c_05.png" alt="Markdown Pic 01" style="display: block; max-width: min(100%, 400px); height: auto;" />
+<img src="https://assets.sonniesun.com/p05_c_05.png" alt="Markdown Pic 04" style="display: block; max-width: min(100%, 400px); height: auto;" />
 
 - Created a custom water shader featuring translucency, refraction, and wave animation.
 
-<img src="https://assets.sonniesun.com/p05_c_06.png" alt="Markdown Pic 01" style="display: block; max-width: min(100%, 500px); height: auto;" />
+<img src="https://assets.sonniesun.com/p05_c_06.png" alt="Markdown Pic 05" style="display: block; max-width: min(100%, 500px); height: auto;" />
 
 - Applied MABLEND blending materials to combine water, soil, and moss textures, enriching surface detail and realism.
 
 ### 05 Character Integration & Cloth Simulation
 
-<img src="https://assets.sonniesun.com/p05_c_07.png" alt="Markdown Pic 01" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p05_c_07.png" alt="Markdown Pic 06" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
 - Introduced a masked main character as a narrative centerpiece, enhancing the scene’s sense of mystery.
 - Simulated the character’s cloak in Marvelous Designer, achieving realistic wind-driven fabric motion.
 
 ### 06 Multi-Camera Cinematic Shots
 
-<img src="https://assets.sonniesun.com/p05_c_08.png" alt="Markdown Pic 01" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p05_c_08.png" alt="Markdown Pic 07" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-<img src="https://assets.sonniesun.com/p05_c_09.png" alt="Markdown Pic 01" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p05_c_09.png" alt="Markdown Pic 08" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-<img src="https://assets.sonniesun.com/p05_c_10.png" alt="Markdown Pic 01" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p05_c_10.png" alt="Markdown Pic 09" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
 - Designed and rendered multiple camera sequences to showcase the environment from various angles.
 - Highlighted both wide establishing shots and close-up details to maximize cinematic storytelling.
