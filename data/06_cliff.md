@@ -82,7 +82,7 @@ Created a custom water shader featuring:
 
 ### 06 Final Scene Output
 
-<img src="https://assets.sonniesun.com/p05_c_10.png" alt="Markdown Pic 10" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p06_c_10.png" alt="Markdown Pic 10" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
 - Combined all elements—composition, vegetation, water, and lighting—into the final rendered scene.
 - Rendered with Path Tracing mode for physically accurate lighting and high-quality output.
