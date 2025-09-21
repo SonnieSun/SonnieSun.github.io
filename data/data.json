@@ -101,9 +101,9 @@
     "Lost": {
         "category": "Game",
         "date": "2025",
-        "image": "https://picsum.photos/id/110/1200/800",
+        "image": "https://assets.sonniesun.com/p09_00.png",
         "imageAlt": "Lost Gameplay Demo",
-        "brief": "A first-person character system with weapon handling and shooting mechanics.",
+        "brief": "A first-person horror shooter demo developed in Unreal Engine, focusing on immersive atmosphere and interactive gameplay.",
         "description": "A first-person character system with weapon handling and shooting mechanics. Designed AI enemy behavior with distinct movement and attack patterns.",
         "technologies": ["Unreal Engine 5.4", "Maya", "Cinema4D"],
         "timeline": "3 months",
