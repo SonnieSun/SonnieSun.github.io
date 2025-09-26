@@ -8,6 +8,7 @@ main_img: https://assets.sonniesun.com/p07_lantern_03.png
 main_img_alt: translucent material image
 overview: his project explores the design and implementation of various subsurface scattering (SSS) materials within Unreal Engine. Materials such as skin, jade, rubber, leaves, candles, lanterns, and crystals share the unique property of being translucent—allowing light to scatter beneath the surface while remaining opaque in form.
 technologies: ["Unreal Engine 5.1"]
+img_type: 1
 img1: https://assets.sonniesun.com/p07_crystal_02.png
 img1_alt: img1
 img2: https://assets.sonniesun.com/p07_lantern_02.png

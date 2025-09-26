@@ -8,6 +8,7 @@ main_img: https://assets.sonniesun.com/p05_00.png
 main_img_alt: medieval architecture image
 overview: Abandoned Land is a cinematic environment project focused on creating a desolate yet mysterious landscape that combines natural elements, medieval references, and narrative-driven character design.
 technologies: ["Unreal Engine 5.1", "Marvelous Designer", "After Effects"]
+img_type: 1
 img1: https://assets.sonniesun.com/p05_01.png
 img1_alt: img1
 img2: https://assets.sonniesun.com/p05_02.png

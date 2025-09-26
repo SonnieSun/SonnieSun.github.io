@@ -8,6 +8,7 @@ main_img: https://assets.sonniesun.com/p05_03.png
 main_img_alt: game demo image
 overview: Lost is a first-person horror shooter demo developed in Unreal Engine, focusing on immersive atmosphere and interactive gameplay. The project combines core FPS mechanics—movement, aiming, shooting, reloading—with horror storytelling elements such as eerie lighting, sudden interactions, and atmospheric sound design.
 technologies: ["Unreal Engine 5.4", "Maya", "Cinema4D"]
+img_type: 1
 img1: https://assets.sonniesun.com/p09_01.png
 img1_alt: img1
 img2: https://assets.sonniesun.com/p09_02.png

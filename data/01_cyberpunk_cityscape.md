@@ -8,6 +8,7 @@ main_img: https://assets.sonniesun.com/p01_00.png
 main_img_alt: city layout image
 overview: This project, Cyberpunk Cityscape – Environment & Lighting Rendering, explores the creation of a cyberpunk-inspired night city environment with a strong focus on composition, atmosphere, and material-driven visual effects.
 technologies: ["Unreal Engine 5.4", "Cinema4D", "After Effects"]
+img_type: 1
 img1: https://assets.sonniesun.com/p01_01.png
 img1_alt: img1
 img2: https://assets.sonniesun.com/p01_02.png

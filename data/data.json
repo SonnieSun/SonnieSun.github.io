@@ -57,10 +57,10 @@
     "Hillside Generation": {
         "category": "PCG",
         "date": "2025",
-        "image": "https://picsum.photos/id/141/1200/800",
+        "image": "https://assets.sonniesun.com/p08_00.png",
         "imageAlt": "Procedural Hillside Generation",
-        "brief": "A procedural generation pipeline for rocks, moss, vines, and pathways using PCG nodes.",
-        "description": "A procedural generation pipeline for rocks, moss, vines, and pathways using PCG nodes. Assembled a natural mountain landscape and rendered an animated short showcasing dynamic environments.",
+        "brief": "Hillside Generation explores procedural content generation (PCG) in Unreal Engine.",
+        "description": "Hillside Generation explores procedural content generation (PCG) in Unreal Engine to create natural environments such as rocky cliffs, dense forests, and roadside vegetation.",
         "technologies": ["Unreal Engine 5.4"],
         "timeline": "7 weeks",
         "link": "detail.html?project=08_hillside_generation"

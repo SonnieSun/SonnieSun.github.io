@@ -3,90 +3,115 @@ title: "Hillside Generation"
 timeline: Dec 2024 - Feb 2025
 category: PCG
 role: Sole Developer
-main_video: https://assets.sonniesun.com/project_cybercity.MP4
-main_img: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
+main_video: https://assets.sonniesun.com/p08_main.mp4
+main_img: https://assets.sonniesun.com/p08_00.png
 main_img_alt: hillside environment image
-overview: As lead designer, I was responsible for developing the core gameplay mechanics, quest design, character progression system, and overseeing the implementation of the open-world environment. The project involved a small team of 5 developers working over 6 months.
+overview: Hillside Generation explores procedural content generation (PCG) in Unreal Engine to create natural environments such as rocky cliffs, dense forests, and roadside vegetation. The project focuses on developing custom PCG tools—for rocks, forests, and multi-layer foliage—that automate repetitive environment building tasks while maintaining artistic control.
 technologies: ["Unreal Engine 5.4"]
-img1: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
+img_type: 1
+img1: https://assets.sonniesun.com/p08_01.png
 img1_alt: img1
-img2: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
+img2: https://assets.sonniesun.com/p08_02.png
 img2_alt: img2
-img3: https://picsum.photos/id/146/1600/800
+img3: https://assets.sonniesun.com/p08_03.png
 img3_alt: img3
-img4: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
+img4: https://assets.sonniesun.com/p08_04.png
 img4_alt: img4
-img5: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
+img5: https://assets.sonniesun.com/p08_05.png
 img5_alt: img5
-img6: https://assets.sonniesun.com/100x100%E5%A4%B4%E5%83%8F.jpg
+img6: https://assets.sonniesun.com/p08_06.png
 img6_alt: img6
 ---
 
 ## Project Overview
 
-"幻境之城"是对使用SideFX Houdini和Unreal Engine 5进行大规模程序化城市生成的技术探索...
+Hillside Generation explores procedural content generation (PCG) in Unreal Engine to create natural environments such as rocky cliffs, dense forests, and roadside vegetation. The project focuses on developing custom PCG tools—for rocks, forests, and multi-layer foliage—that automate repetitive environment building tasks while maintaining artistic control. By combining blueprint-driven randomization, spline-based placement, and Niagara effects, the project achieves scalable scene generation that remains visually diverse and efficient.
 
 ## Technical Breakdown
 
-### 1 Composition & Visual Design
+### 01 Rock Generation Tool
+Challenge: Placing large numbers of rocks manually is inefficient and repetitive.
 
-<!-- 构图草稿 -->
-![Markdown标志](https://markdown-here.com/img/icon256.png "Markdown Logo")
+<img src="https://assets.sonniesun.com/p08_c_01.png" alt="Markdown Pic 01" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p08_c_02.png" alt="Markdown Pic 02" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-- Challenge: Managing a large-scale city environment while maintaining depth, readability, and a strong cyberpunk aesthetic.
+- Built an automated rock generation tool that randomizes position, rotation, and scale within set ranges.
+- Introduced a public length parameter to extend rock formations, enabling the rapid creation of continuous cliffside structures.
 
-- Solution:
-    - Applied modular modeling and hierarchical layout to achieve clear foreground, midground, and background layers.
-    - Referenced cinematic photography techniques (leading lines, symmetry, light–dark contrast) to guide the viewer’s eye.
-    - Positioned neon signs and billboards strategically to establish visual focal points.
+### 02 Forest Generation Tool
 
-### 2 Nighttime Lighting & Atmospherics
+<img src="https://assets.sonniesun.com/p08_c_03.png" alt="Markdown Pic 03" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p08_c_04.png" alt="Markdown Pic 04" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-<!-- 灯光 -->
-![Markdown标志](https://markdown-here.com/img/icon256.png "Markdown Logo")
+- Generated dense forests while maintaining natural variation and respecting scene constraints.
+- Designed a forest tool with scatter placement that automatically spawns tall trees, moss, and small rocks.
+- Integrated spline-based road definition so the system avoids placing trees along paths.
 
-- Challenge: Creating a convincing night scene with volumetric fog, neon lighting, and reflective surfaces.
+### 03 Multi-Layer Foliage Tool
+Challenge: Large-scale foliage placement often creates visible repetition.
 
-- Solution:
-    - Utilized Volumetric Fog and Exponential Height Fog in UE5 to create layered atmospheric depth.
-    - Combined point lights and area lights to simulate neon and street lighting, enhanced with Lumen for global illumination.
-    - Applied post-processing effects such as Bloom and Color Grading to strengthen mood and color harmony.
+<img src="https://assets.sonniesun.com/p08_c_05.png" alt="Markdown Pic 05" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p08_c_06.png" alt="Markdown Pic 06" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p08_c_07.png" alt="Markdown Pic 07" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-### 3 Hologram & Billboard Materials
+- Created a multi-layer foliage tool with spline-controlled areas. 
+- Randomized the shape, position, rotation, and scale of primary, mid-layer, and ground plants, ensuring natural variety in large-scale generation.
 
-<!-- PLUS：HUD的制作细节 -->
-![Markdown标志](https://markdown-here.com/img/icon256.png "Markdown Logo")
+### 04 Cliff Scene Assembly
 
-- Challenge: Designing glowing holographic projections and animated billboards with strong sci-fi aesthetics while keeping performance in mind.
+<img src="https://assets.sonniesun.com/p08_c_08.png" alt="Markdown Pic 08" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-- Solution:
-    - Built emissive materials with Fresnel edge glow to enhance the holographic feel.
-    - Added shader animations for flickering text, scanlines, and distortion effects.
-    - Optimized transparency blending to reduce performance overhead.
+-  Used cubes as placeholders to block out near, secondary, and distant rock positions.
 
-### 4 Animated Sci-fi Road Material
+<img src="https://assets.sonniesun.com/p08_c_09.png" alt="Markdown Pic 09" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-<!-- PLUS：刘光效果制作细节 -->
-- Challenge: Roads needed dynamic flowing light effects to fit the futuristic theme.
+- Replaced them with auto-generated assets. 
 
-- Solution:
+<img src="https://assets.sonniesun.com/p08_c_10.png" alt="Markdown Pic 10" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p08_c_11.png" alt="Markdown Pic 11" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p08_c_12.png" alt="Markdown Pic 12" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-    - Created animated materials using UV panning combined with gradient masks.
-    - Layered multiple light streaks with different speeds and intensities via Lerp nodes.
-    - Adjusted brightness and timing to integrate smoothly with the overall city lighting.
+- Added vegetation, adjusted lighting and fog, and refined the overall atmosphere.
+- Built a visually convincing cliffside environment with depth.
 
-### 5 Sci-fi Portal VFX
+### 05 Forest Scene Assembly
+Challenge: Ensuring large-scale forest placement feels cohesive.
 
-<!-- PLUS：传送门制作细节 -->
-- Challenge: Designing a portal with strong sci-fi energy and visual impact.
+<img src="https://assets.sonniesun.com/p08_c_13.png" alt="Markdown Pic 13" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-- Solution:
-    - Used Niagara particle systems for swirling particles and energy bursts.
-    - Applied World Position Offset in materials to simulate spatial distortion.
-    - Combined animated shaders with particle effects to create dynamic energy fluctuations inside the portal.
+- Blocked out height ranges with cylinders.
+
+<img src="https://assets.sonniesun.com/p08_c_14.png" alt="Markdown Pic 14" style="display: block; max-width: min(100%, 800px); height: auto;" />
+
+- Generated full forests using the PCG forest tool to match the predefined zones.
+
+### 06 Roadside Driving Scene
+- Created a dynamic scene with both natural detail and vehicle integration.
+
+<img src="https://assets.sonniesun.com/p08_c_15.png" alt="Markdown Pic 15" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p08_c_16.png" alt="Markdown Pic 16" style="display: block; max-width: min(100%, 800px); height: auto;" />
+
+- Defined car and road positions with geometric placeholders
+
+<img src="https://assets.sonniesun.com/p08_c_17.png" alt="Markdown Pic 17" style="display: block; max-width: min(100%, 800px); height: auto;" />
+
+- Auto-generated surrounding vegetation
+
+<img src="https://assets.sonniesun.com/p08_c_18.png" alt="Markdown Pic 18" style="display: block; max-width: min(100%, 800px); height: auto;" />
+
+- Added small details (branches, rocks, moss) to enhance ground realism.
+
+### 07 Debris Splash Effects
+- Implemented a Niagara system to simulate branches and pebbles scattering as the car’s tires roll over them, adding a dynamic, physical layer to the environment.
+
+<img src="https://assets.sonniesun.com/p08_c_19.png" alt="Markdown Pic 19" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p08_c_20.gif" alt="Markdown Pic 20" style="display: block; max-width: min(100%, 400px); height: auto;" />
+
+- Enhanced immersion in the driving scene.
 
 ## Takeaways
-
-- Gained experience in balancing artistic direction with real-time performance optimization.
-- Developed a deeper understanding of fog–light interaction and dynamic materials in cyberpunk aesthetics.
-- Future improvements could include further optimizing holograms and particle effects for lower-end hardware.
+1. Gained practical experience in procedural content generation for natural environments.
+2. Learned to design custom PCG tools that balance automation with artistic control.
+3. Developed efficient workflows for cliff, forest, and road scene assembly using blueprint-driven generation.
+4. Strengthened skills in spline-based placement, randomized asset variation, and atmosphere refinement.
+5. Explored the integration of VFX (Niagara) with PCG workflows to bring environments to life dynamically.

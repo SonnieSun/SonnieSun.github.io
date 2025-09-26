@@ -4,10 +4,11 @@ timeline: Sep 2024
 category: Rendering
 role: Sole Developer
 main_video: https://assets.sonniesun.com/p06_main.mp4
-main_img: hhttps://assets.sonniesun.com/p06_00.png
+main_img: https://assets.sonniesun.com/p06_00.png
 main_img_alt: cliff environment
 overview: Cliff is a natural environment rendering project created with a focus on composition, vegetation systems, and realistic material design. The entire scene was rendered using Path Tracing mode in Unreal Engine to achieve cinematic visual quality.
 technologies: ["Unreal Engine 5.3", "Cinema4D"]
+img_type: 1
 img1: https://assets.sonniesun.com/p06_01.png
 img1_alt: img1
 img2: https://assets.sonniesun.com/p06_02.png

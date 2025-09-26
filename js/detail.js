@@ -134,34 +134,46 @@ function renderProject(metadata, markdownContent) {
             : `<span class="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">${metadata.technologies}</span>`;
     }
 
-    if (metadata.img1 && metadata.img1_alt) {
-        const img1Element = document.getElementById('project-img-1');
-        img1Element.innerHTML = `<img src="${metadata.img1}" alt="${metadata.img1_alt}" class="w-full h-auto">`;
-    }
-    
-    if (metadata.img2 && metadata.img2_alt) {
-        const img2Element = document.getElementById('project-img-2');
-        img2Element.innerHTML = `<img src="${metadata.img2}" alt="${metadata.img2_alt}" class="w-full h-auto">`;
-    }
+    if(metadata.img_type && metadata.img_type === 2) {
+        if (metadata.img1 && metadata.img1_alt) {
+            const img1Element = document.getElementById('project-img-1');
+            img1Element.innerHTML = `<img src="${metadata.img1}" alt="${metadata.img1_alt}" class="w-full h-auto">`;
+        }
+        
+        if (metadata.img2 && metadata.img2_alt) {
+            const img2Element = document.getElementById('project-img-2');
+            img2Element.innerHTML = `<img src="${metadata.img2}" alt="${metadata.img2_alt}" class="w-full h-auto">`;
+        }
+    } else {
+        if (metadata.img1 && metadata.img1_alt) {
+            const img1Element = document.getElementById('project-img-1');
+            img1Element.innerHTML = `<img src="${metadata.img1}" alt="${metadata.img1_alt}" class="w-full h-auto">`;
+        }
+        
+        if (metadata.img2 && metadata.img2_alt) {
+            const img2Element = document.getElementById('project-img-2');
+            img2Element.innerHTML = `<img src="${metadata.img2}" alt="${metadata.img2_alt}" class="w-full h-auto">`;
+        }
 
-    if (metadata.img3 && metadata.img3_alt) {
-        const img3Element = document.getElementById('project-img-3');
-        img3Element.innerHTML = `<img src="${metadata.img3}" alt="${metadata.img3_alt}" class="w-full h-auto">`;
-    }
+        if (metadata.img3 && metadata.img3_alt) {
+            const img3Element = document.getElementById('project-img-3');
+            img3Element.innerHTML = `<img src="${metadata.img3}" alt="${metadata.img3_alt}" class="w-full h-auto">`;
+        }
 
-    if (metadata.img4 && metadata.img4_alt) {
-        const img4Element = document.getElementById('project-img-4');
-        img4Element.innerHTML = `<img src="${metadata.img4}" alt="${metadata.img4_alt}" class="w-full h-auto">`;
-    }
+        if (metadata.img4 && metadata.img4_alt) {
+            const img4Element = document.getElementById('project-img-4');
+            img4Element.innerHTML = `<img src="${metadata.img4}" alt="${metadata.img4_alt}" class="w-full h-auto">`;
+        }
 
-    if (metadata.img5 && metadata.img5_alt) {
-        const img5Element = document.getElementById('project-img-5');
-        img5Element.innerHTML = `<img src="${metadata.img5}" alt="${metadata.img5_alt}" class="w-full h-auto">`;
-    }
+        if (metadata.img5 && metadata.img5_alt) {
+            const img5Element = document.getElementById('project-img-5');
+            img5Element.innerHTML = `<img src="${metadata.img5}" alt="${metadata.img5_alt}" class="w-full h-auto">`;
+        }
 
-    if (metadata.img6 && metadata.img6_alt) {
-        const img6Element = document.getElementById('project-img-6');
-        img6Element.innerHTML = `<img src="${metadata.img6}" alt="${metadata.img6_alt}" class="w-full h-auto">`;
+        if (metadata.img6 && metadata.img6_alt) {
+            const img6Element = document.getElementById('project-img-6');
+            img6Element.innerHTML = `<img src="${metadata.img6}" alt="${metadata.img6_alt}" class="w-full h-auto">`;
+        }
     }
     
     // render Markdown content
