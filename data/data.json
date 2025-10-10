@@ -43,16 +43,16 @@
         "timeline": "2 weeks",
         "link": "detail.html?project=07_translucent_material_design"
     },
-    "Concrete Jungle": {
+    "Wasteland": {
         "category": "PCG",
         "date": "2025",
-        "image": "https://picsum.photos/id/152/1200/800",
-        "imageAlt": "Procedural Building Generation",
-        "brief": "A procedural content generation tool for automatic building placement along defined road layouts.",
-        "description": "A procedural content generation tool for automatic building placement along defined road layouts. Enabled scalable cyberpunk city creation, improving workflow efficiency for level design.",
+        "image": "https://assets.sonniesun.com/p02_00.png",
+        "imageAlt": "Procedural City Generation",
+        "brief": "A procedural generation (PCG) project focused on creating a large-scale abandoned town environment.",
+        "description": "A procedural content generation tool for automatic building placement along defined road layouts. Enabled scalable abandoned town creation, improving workflow efficiency for level design.",
         "technologies": ["Unreal Engine 5.4"],
         "timeline": "8 weeks",
-        "link": "detail.html?project=02_concrete_jungle"
+        "link": "detail.html?project=02_wasteland"
     },
     "Hillside Generation": {
         "category": "PCG",
@@ -85,7 +85,7 @@
         "description": "Rigged and animated a car, producing a cinematic short film with dynamic, speed-focused camera work. Developed vehicle control logic using Blueprints to support realistic driving behavior.",
         "technologies": ["Unreal Engine 5.4", "EMBERGEN", "Maya"],
         "timeline": "4 months",
-        "link": "detail.html?project=10_dusk"
+        "link": "detail.html?project=10_simple_bot"
     },
     "Nexus": {
         "category": "Game",
