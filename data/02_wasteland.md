@@ -3,7 +3,7 @@ title: "Wasteland"
 timeline: Mar 2025 - Apr 2025
 category: PCG
 role: Sole Developer
-main_video: https://assets.sonniesun.com/p02_main.MP4
+main_video: https://assets.sonniesun.com/p02_main.mp4
 main_img: https://assets.sonniesun.com/p02_00.png
 main_img_alt: city layout image
 overview: As lead designer, I was responsible for developing the core gameplay mechanics, quest design, character progression system, and overseeing the implementation of the open-world environment. The project involved a small team of 5 developers working over 6 months.
