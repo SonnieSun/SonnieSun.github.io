@@ -20,6 +20,10 @@ img2_alt: img2
 Gibberwave is a narrative-driven text adventure game developed during a Game Jam, where I served as the programmer. The player takes on the role of the only unaffected outsider in Blabber Town, deciphering nonsensical phrases influenced by alien signals. By converting these distorted dialogues into purified energy, the player gradually restores normality to the town.
 I was fully responsible for all programming work, including the dialogue and gameplay systems, UI design and transitions, localization framework, adaptive resolution, and multi-platform builds. The project was developed in Unity (C#), with a focus on creating smooth narrative interactions and responsive user experience within the limited jam timeframe.
 
+Available in Itch:
+
+<a href="https://yiwaii.itch.io/gibberwave">https://yiwaii.itch.io/gibberwave</a>
+
 ## Technical Breakdown
 
 ### 01 Multi-language Support and UI Localization
@@ -49,7 +53,31 @@ I was fully responsible for all programming work, including the dialogue and gam
 ### 04 Adaptive Resolution and Fullscreen Display
 
 <img src="https://assets.sonniesun.com/p11_c_08.png" alt="Markdown Pic 08" style="display: block; max-width: min(100%, 800px); height: auto;" />
-<img src="https://assets.sonniesun.com/p11_c_09.png" alt="Markdown Pic 09" style="display: block; max-width: min(100%, 800px); height: auto;" />
+
+```c#
+public class FixedAspectRatio : MonoBehaviour
+{
+    public float targetAspect = 16.0f / 9.0f;
+    private Camera mainCamera;
+    
+    void Start()
+    {
+        CanvasScaler canvasScaler = GameObject.Find("Canvas").GetComponent<CanvasScaler>();
+        
+        float ratio = (float)Screen.width / (float)Screen.height;
+
+        if (ratio < targetAspect)
+        {
+            canvasScaler.matchWidthOrHeight = 0;
+        }
+
+        else if (ratio > targetAspect)
+        {
+            canvasScaler.matchWidthOrHeight = 1;
+        }
+    }
+}
+```
 
 - The UI layout needed to remain consistent across varying screen ratios and platforms.
 - Implemented a 16:9 enforced display by adding adaptive black bars and responsive canvas alignment in C#, ensuring visual consistency across Windows, WebGL, and macOS builds.
