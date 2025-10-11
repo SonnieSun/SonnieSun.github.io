@@ -4,7 +4,7 @@ timeline: Jan 2025 - Sep 2025
 category: Game
 role: Sole Developer
 main_video: https://assets.sonniesun.com/p03_main.mp4
-main_img: https://assets.sonniesun.com/p03_00.png
+main_img: https://assets.sonniesun.com/p03_0.png
 main_img_alt: game demo image
 overview: Nexus is a third-person stealth demo developed in Unreal Engine, focusing on immersive atmosphere and interactive gameplay. The project combines core mechanics—movement, aiming, shooting, reloading—with cyberpunk storytelling elements such as eerie lighting, sudden interactions, and atmospheric sound design.
 technologies: ["Unreal Engine 5.4", "Maya", "Cinema4D"]
