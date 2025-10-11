@@ -6,7 +6,7 @@ role: Sole Developer
 main_video: https://assets.sonniesun.com/p02_main.mp4
 main_img: https://assets.sonniesun.com/p02_00.png
 main_img_alt: city layout image
-overview: As lead designer, I was responsible for developing the core gameplay mechanics, quest design, character progression system, and overseeing the implementation of the open-world environment. The project involved a small team of 5 developers working over 6 months.
+overview: Wasteland is a procedural generation (PCG) project focused on creating a large-scale abandoned town environment. The goal was to design automated PCG tools for buildings, roads, moss, and vines, while also controlling atmosphere and mood through lighting, fog, and VFX.
 technologies: ["Unreal Engine 5.4"]
 img_type: 1
 img1: https://assets.sonniesun.com/p02_01.png
@@ -83,6 +83,7 @@ Wasteland is a procedural generation (PCG) project focused on creating a large-s
 
 <img src="https://assets.sonniesun.com/p02_c_12.png" alt="Markdown Pic 12" style="display: block; max-width: min(100%, 600px); height: auto;" />
 <img src="https://assets.sonniesun.com/p02_c_13.png" alt="Markdown Pic 13" style="display: block; max-width: min(100%, 800px); height: auto;" />
+<img src="https://assets.sonniesun.com/p02_c_13_1.png" alt="Markdown Pic 13_1" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
 - Developed a vine tool driven by splines
 - Randomized length, thickness, and hanging branches. 

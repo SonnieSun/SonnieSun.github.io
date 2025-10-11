@@ -25,10 +25,10 @@
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex space-x-8">
                     <a href="#intro" class="nav-link font-medium hover:text-primary transition-colors">Introduction</a>
-                    <a href="#rendering" class="nav-link font-medium hover:text-primary transition-colors">Rendering</a>
+                    <a href="#game" class="nav-link font-medium hover:text-primary transition-colors">Game</a>
                     <a href="#pcg" class="nav-link font-medium hover:text-primary transition-colors">PCG</a>
                     <a href="#animation" class="nav-link font-medium hover:text-primary transition-colors">Animation</a>
-                    <a href="#game" class="nav-link font-medium hover:text-primary transition-colors">Game</a>
+                    <a href="#rendering" class="nav-link font-medium hover:text-primary transition-colors">Rendering</a>
                 </div>
                 
                 <!-- Mobile menu button -->
@@ -41,10 +41,10 @@
             <div id="mobile-menu" class="md:hidden hidden mt-4 bg-dark-light rounded-lg p-4 absolute left-4 right-4 shadow-lg">
                 <div class="flex flex-col space-y-4">
                     <a href="#intro" class="mobile-nav-link font-medium hover:text-primary transition-colors">Introduction</a>
-                    <a href="#rendering" class="mobile-nav-link font-medium hover:text-primary transition-colors">Rendering</a>
+                    <a href="#game" class="mobile-nav-link font-medium hover:text-primary transition-colors">Game</a>
                     <a href="#pcg" class="mobile-nav-link font-medium hover:text-primary transition-colors">PCG</a>
                     <a href="#animation" class="mobile-nav-link font-medium hover:text-primary transition-colors">Animation</a>
-                    <a href="#game" class="mobile-nav-link font-medium hover:text-primary transition-colors">Game</a>
+                    <a href="#rendering" class="mobile-nav-link font-medium hover:text-primary transition-colors">Rendering</a>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                         From backend developer to technical artist, I bring together coding, graphics, and storytelling to design interactive experiences and vibrant cyberpunk-inspired visual worlds.
                     </p>
                     <div class="flex flex-wrap gap-4">
-                        <a href="#rendering" class="px-6 py-3 bg-primary hover:bg-primary/90 text-white font-medium rounded-lg transition-all transform hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/20 min-w-[140px] text-center">
+                        <a href="#recent" class="px-6 py-3 bg-primary hover:bg-primary/90 text-white font-medium rounded-lg transition-all transform hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/20 min-w-[140px] text-center">
                             Explore Works
                         </a>
                         <a href="#contact" class="px-6 py-3 bg-transparent border border-primary text-primary hover:bg-primary/10 font-medium rounded-lg transition-all transform hover:-translate-y-1 min-w-[140px] text-center">
@@ -99,7 +99,7 @@
         </div>
         
         <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <a href="#rendering" class="text-gray-400 hover:text-primary text-2xl">
+            <a href="#recent" class="text-gray-400 hover:text-primary text-2xl">
                 <i class="fa fa-chevron-down"></i>
             </a>
         </div>
@@ -128,52 +128,18 @@
         </div>
     </div> -->
 
-    <!-- Rendering Section -->
-    <section id="rendering" class="py-20 bg-dark relative">
+    <!-- Recent Section -->
+    <section id="recent" class="py-20 bg-dark relative">
         <div class="container mx-auto px-4 md:px-8">
             <div class="mb-16 text-center">
                 <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4 inline-block relative">
-                    <span class="relative z-10">Rendering & Lighting</span>
+                    <span class="relative z-10">Recent Projects</span>
                     <span class="absolute -bottom-2 left-0 w-full h-3 bg-primary/20 -z-10"></span>
                 </h2>
-                <p class="text-gray-400 max-w-2xl mx-auto px-4">Designing and implementing lighting setups that establish mood, guide gameplay, and define visual clarity.</p>
+                <!-- <p class="text-gray-400 max-w-2xl mx-auto px-4">Designing and implementing lighting setups that establish mood, guide gameplay, and define visual clarity.</p> -->
             </div>
             
-            <div id="render-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- PCG Section -->
-    <section id="pcg" class="py-20 bg-dark-light relative">
-        <div class="container mx-auto px-4 md:px-8">
-            <div class="mb-16 text-center">
-                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4 inline-block relative">
-                    Procedural Content Generation
-                    <span class="absolute -bottom-2 left-0 w-full h-3 bg-secondary/20 -z-10"></span>
-                </h2>
-                <p class="text-gray-400 max-w-2xl mx-auto px-4">Leveraging algorithms and tools like Houdini and Unreal Engine to create dynamic, scalable, and efficient game assets and environments.</p>
-            </div>
-            
-            <div id="pcg-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- Animation Section -->
-    <section id="animation" class="py-20 bg-dark relative">
-        <div class="container mx-auto px-4 md:px-8">
-            <div class="mb-16 text-center">
-                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4 inline-block relative">
-                    Animation
-                    <span class="absolute -bottom-2 left-0 w-full h-3 bg-primary/20 -z-10"></span>
-                </h2>
-                <p class="text-gray-400 max-w-2xl mx-auto px-4">Smooth animations and character movements bringing static models to life with personality and purpose.</p>
-            </div>
-            
-            <div id="animation-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <div id="recent-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 
             </div>
         </div>
@@ -191,6 +157,57 @@
             </div>
             
             <div id="game-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- PCG Section -->
+    <section id="pcg" class="py-20 bg-dark relative">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="mb-16 text-center">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4 inline-block relative">
+                    Procedural Content Generation
+                    <span class="absolute -bottom-2 left-0 w-full h-3 bg-secondary/20 -z-10"></span>
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto px-4">Leveraging algorithms and tools like Houdini and Unreal Engine to create dynamic, scalable, and efficient game assets and environments.</p>
+            </div>
+            
+            <div id="pcg-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Animation Section -->
+    <section id="animation" class="py-20 bg-dark-light relative">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="mb-16 text-center">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4 inline-block relative">
+                    Animation
+                    <span class="absolute -bottom-2 left-0 w-full h-3 bg-primary/20 -z-10"></span>
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto px-4">Smooth animations and character movements bringing static models to life with personality and purpose.</p>
+            </div>
+            
+            <div id="animation-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Rendering Section -->
+    <section id="rendering" class="py-20 bg-dark relative">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="mb-16 text-center">
+                <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-4 inline-block relative">
+                    <span class="relative z-10">Rendering & Lighting</span>
+                    <span class="absolute -bottom-2 left-0 w-full h-3 bg-primary/20 -z-10"></span>
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto px-4">Designing and implementing lighting setups that establish mood, guide gameplay, and define visual clarity.</p>
+            </div>
+            
+            <div id="render-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 
             </div>
         </div>
@@ -317,11 +334,8 @@
     </div>
 
     <script>
-
-        // Main Data
-        let projectData = {};
-
         window.onload = async function() {
+            let projectData = {};
             try {
                 const response = await fetch('./data/data.json', {
                     method: 'GET',
@@ -335,8 +349,21 @@
                     throw new Error('network error');
                 }
                 projectData = await response.json();
-                // console.log('data has loaded:', projectData);
                 renderData(projectData);
+
+                const recentResponse = await fetch('./data/recent.json', {
+                    method: 'GET',
+                    mode: 'cors',
+                    credentials: 'include',
+                    headers: {
+                        'Cache-Control': 'no-cache'
+                    }
+                });
+                if (!response.ok) {
+                    throw new Error('network error');
+                }
+                projectData = await response.json();
+                renderRecentData(projectData);
             } catch (error) {
                 console.error('load JSON error:', error);
             }
@@ -465,7 +492,48 @@
                 `;
                 gameContainer.appendChild(item);
             });
-            addMedalListener();
+            addMedalListener(data);
+        }
+
+        function renderRecentData(data) {
+            const listData = transformDataToList(data);
+
+            const recentContainer = document.getElementById('recent-list');
+            recentContainer.innerHTML = '';
+            listData.forEach(project => {
+                const item = document.createElement('div');
+                item.className = 'portfolio-item group';
+                let category = 'game';
+                if(project.category === 'Rendering') {
+                    category = 'rendering';
+                } else if(project.category === 'PCG') {
+                    category = 'pcg';
+                } else if(project.category === 'Animation') {
+                    category = 'animation';
+                }
+                item.setAttribute('data-category', category);
+                item.innerHTML = `
+                    <div class="relative overflow-hidden rounded-xl bg-dark-light h-full transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/10">
+                        <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+                            <img src="${project.image}" alt="${project.imageAlt}" class="w-full h-56 sm:h-64 object-cover transition-transform duration-700 group-hover:scale-110">
+                        </div>
+                        <div class="p-5 sm:p-6">
+                            <div class="flex justify-between items-center mb-3">
+                                <span class="text-xs font-semibold px-3 py-1 bg-primary/20 text-primary rounded-full">${project.category}</span>
+                                <span class="text-gray-400 text-sm">${project.date}</span>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">${project.name}</h3>
+                            <p class="text-gray-400 text-sm mb-4">${project.brief}</p>
+                            <button class="view-project text-primary font-medium flex items-center text-sm hover:underline">
+                                View Project <i class="fa fa-arrow-right ml-2 transition-transform group-hover:translate-x-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+                recentContainer.appendChild(item);
+            });
+
+            addMedalListener(data);
         }
 
         // Navbar scroll effect
@@ -606,7 +674,7 @@
             });
         });
 
-        function addMedalListener() {
+        function addMedalListener(data) {
             // Project modal functionality
             const modal = document.getElementById('project-modal');
             const modalOverlay = document.getElementById('modal-overlay');
@@ -617,7 +685,7 @@
             viewProjectButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     const projectTitle = button.closest('.portfolio-item').querySelector('h3').textContent;
-                    const project = projectData[projectTitle];
+                    const project = data[projectTitle];
                     
                     if (project) {
                         document.getElementById('modal-category').textContent = project.category;

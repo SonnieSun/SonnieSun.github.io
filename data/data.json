@@ -10,17 +10,6 @@
         "timeline": "6 weeks",
         "link": "detail.html?project=01_cyberpunk_cityscape"
     },
-    "Abandoned Land": {
-        "category": "Rendering",
-        "date": "2024",
-        "image": "https://assets.sonniesun.com/p05_00.png",
-        "imageAlt": "Abandoned medieval architecture",
-        "brief": "A cinematic scene of abandoned medieval architecture with volumetric fog and blended materials.",
-        "description": "Created a cinematic scene of abandoned medieval architecture with volumetric fog and blended materials and realistic cloth simulation using Marvelous Designer, integrated into an animated short.",
-        "technologies": ["Unreal Engine 5.1", "Marvelous Designer", "After Effects"],
-        "timeline": "6 weeks",
-        "link": "detail.html?project=05_abandoned_land"
-    },
     "Cliff": {
         "category": "Rendering",
         "date": "2024",
@@ -31,6 +20,17 @@
         "technologies": ["Unreal Engine 5.3", "Cinema4D"],
         "timeline": "4 weeks",
         "link": "detail.html?project=06_cliff"
+    },
+    "Abandoned Land": {
+        "category": "Rendering",
+        "date": "2024",
+        "image": "https://assets.sonniesun.com/p05_00.png",
+        "imageAlt": "Abandoned medieval architecture",
+        "brief": "A cinematic scene of abandoned medieval architecture with volumetric fog and blended materials.",
+        "description": "Created a cinematic scene of abandoned medieval architecture with volumetric fog and blended materials and realistic cloth simulation using Marvelous Designer, integrated into an animated short.",
+        "technologies": ["Unreal Engine 5.1", "Marvelous Designer", "After Effects"],
+        "timeline": "6 weeks",
+        "link": "detail.html?project=05_abandoned_land"
     },
     "Translucent Material Design": {
         "category": "Rendering",
@@ -65,18 +65,18 @@
         "timeline": "7 weeks",
         "link": "detail.html?project=08_hillside_generation"
     },
-    "The Door Between Worlds": {
-        "category": "Animation",
-        "date": "2025",
-        "image": "https://picsum.photos/id/235/1200/800",
-        "imageAlt": "Character Animation Sequence",
-        "brief": "Character animation showcasing combat sequences and fluid movement transitions.",
-        "description": "Character animation showcasing combat sequences and fluid movement transitions. The animation features a warrior character with a variety of attacks, defensive maneuvers, and idle animations, each with careful attention to weight and momentum.",
-        "technologies": ["Unreal Engine 5.4", "Maya"],
-        "timeline": "8 weeks",
-        "link": "detail.html?project=04_the_door_between_worlds"
-    },
-    "Dusk": {
+    // "The Door Between Worlds": {
+    //     "category": "Animation",
+    //     "date": "2025",
+    //     "image": "https://picsum.photos/id/235/1200/800",
+    //     "imageAlt": "Character Animation Sequence",
+    //     "brief": "Character animation showcasing combat sequences and fluid movement transitions.",
+    //     "description": "Character animation showcasing combat sequences and fluid movement transitions. The animation features a warrior character with a variety of attacks, defensive maneuvers, and idle animations, each with careful attention to weight and momentum.",
+    //     "technologies": ["Unreal Engine 5.4", "Maya"],
+    //     "timeline": "8 weeks",
+    //     "link": "detail.html?project=04_the_door_between_worlds"
+    // },
+    "Simple Bot": {
         "category": "Animation",
         "date": "2025",
         "image": "https://picsum.photos/id/188/1200/800",
@@ -97,6 +97,17 @@
         "technologies": ["Unreal Engine 5.4", "Maya", "Cinema4D"],
         "timeline": "9 months",
         "link": "detail.html?project=03_nexus"
+    },
+    "Gibberwave": {
+        "category": "Game",
+        "date": "2025",
+        "image": "https://picsum.photos/id/235/1200/800",
+        "imageAlt": "Gibberwave Gameplay",
+        "brief": "A text adventure game with a bit of absurd humor.",
+        "description": "A text adventure game with a bit of absurd humor. Your goal is to collect and purify enough nonsense to restore the town to normal before everyone completely turns into alien creatures.",
+        "technologies": ["Ludum Dare 58", "Game Jam", "Unity"],
+        "timeline": "3 days",
+        "link": "detail.html?project=11_gibberwave"
     },
     "Lost": {
         "category": "Game",
