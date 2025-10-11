@@ -117,7 +117,7 @@ function renderProject(metadata, markdownContent) {
         `;
     } else if (metadata.main_game) {
         videoElement.innerHTML = `
-            <iframe frameborder="0" src="${metadata.main_game}" allowfullscreen="" style="width: 100%; border-radius: 8px;">
+            <iframe frameborder="0" src="${metadata.main_game}" allowfullscreen="" width="968" height="573">
                 <a href="https://yiwaii.itch.io/gibberwave">Play Gibberwave on itch.io</a>
             </iframe>
         `;
