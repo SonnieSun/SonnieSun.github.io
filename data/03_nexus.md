@@ -9,17 +9,17 @@ main_img_alt: game demo image
 overview: Nexus is a third-person stealth demo developed in Unreal Engine, focusing on immersive atmosphere and interactive gameplay. The project combines core mechanics—movement, aiming, shooting, reloading—with cyberpunk storytelling elements such as eerie lighting, sudden interactions, and atmospheric sound design.
 technologies: ["Unreal Engine 5.4", "Maya", "Cinema4D"]
 img_type: 1
-img1: https://assets.sonniesun.com/p03_01.png
+img1: https://assets.sonniesun.com/p03_1.png
 img1_alt: img1
-img2: https://assets.sonniesun.com/p03_02.png
+img2: https://assets.sonniesun.com/p03_2.png
 img2_alt: img2
-img3: https://assets.sonniesun.com/p03_03.png
+img3: https://assets.sonniesun.com/p03_3.png
 img3_alt: img3
-img4: https://assets.sonniesun.com/p03_04.png
+img4: https://assets.sonniesun.com/p03_4.png
 img4_alt: img4
-img5: https://assets.sonniesun.com/p03_05.png
+img5: https://assets.sonniesun.com/p03_5.png
 img5_alt: img5
-img6: https://assets.sonniesun.com/p03_06.png
+img6: https://assets.sonniesun.com/p03_6.png
 img6_alt: img6
 ---
 
