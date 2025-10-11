@@ -103,7 +103,7 @@
         "date": "2025",
         "image": "https://assets.sonniesun.com/p11_00.jpg",
         "imageAlt": "Gibberwave Gameplay",
-        "brief": "A text adventure game with a bit of absurd humor.",
+        "brief": "This game was created for Ludum Dare 58, themed \"Collector\". It’s a text-based adventure game developed during the game jam.",
         "description": "A text adventure game with a bit of absurd humor. Your goal is to collect and purify enough nonsense to restore the town to normal before everyone completely turns into alien creatures.",
         "technologies": ["Ludum Dare 58", "Game Jam", "Unity"],
         "timeline": "3 days",

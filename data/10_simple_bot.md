@@ -47,23 +47,23 @@ SimpleBot focuses on creating a complete character animation system — from han
 
 - Derived from the walk cycle but lowered the center of gravity and re-timed mid-step poses to give a cautious, deliberate feel.
 
-### 04 Idle Animation I — Kick Motion
+### 04 Idle Animation I
 
 <img src="https://assets.sonniesun.com/p10_c_10_1.gif" alt="Markdown Pic 10_1" style="display: block; max-width: min(100%, 400px); height: auto;" />
 <img src="https://assets.sonniesun.com/p10_c_11_1.png" alt="Markdown Pic 11_1" style="display: block; max-width: min(100%, 800px); height: auto;" />
 <img src="https://assets.sonniesun.com/p10_c_10.gif" alt="Markdown Pic 10" style="display: block; max-width: min(100%, 400px); height: auto;" />
 <img src="https://assets.sonniesun.com/p10_c_11.png" alt="Markdown Pic 11" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-- Animated a playful kick motion as a custom idle action, adding personality to the otherwise minimal robot design.
-- Made idle poses feel dynamic and characterful.
+- Added variation to idle animations to prevent visual monotony.
+- Created a stretching animation, incorporating upper-body rotation and leg extension for more organic movement.
 
-### 05 Idle Animation II — Stretch Motion
+### 05 Idle Animation II - Kick Motion
 
 <img src="https://assets.sonniesun.com/p10_c_12.gif" alt="Markdown Pic 12" style="display: block; max-width: min(100%, 400px); height: auto;" />
 <img src="https://assets.sonniesun.com/p10_c_13.png" alt="Markdown Pic 13" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-- Added variation to idle animations to prevent visual monotony.
-- Created a stretching animation, incorporating upper-body rotation and leg extension for more organic movement.
+- Animated a playful kick motion as a custom idle action, adding personality to the otherwise minimal robot design.
+- Made idle poses feel dynamic and characterful.
 
 ### 06 Integration into Unreal Engine 5
 - Linked all animations into a responsive gameplay system.
