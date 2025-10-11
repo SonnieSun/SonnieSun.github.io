@@ -65,17 +65,17 @@
         "timeline": "7 weeks",
         "link": "detail.html?project=08_hillside_generation"
     },
-    // "The Door Between Worlds": {
-    //     "category": "Animation",
-    //     "date": "2025",
-    //     "image": "https://picsum.photos/id/235/1200/800",
-    //     "imageAlt": "Character Animation Sequence",
-    //     "brief": "Character animation showcasing combat sequences and fluid movement transitions.",
-    //     "description": "Character animation showcasing combat sequences and fluid movement transitions. The animation features a warrior character with a variety of attacks, defensive maneuvers, and idle animations, each with careful attention to weight and momentum.",
-    //     "technologies": ["Unreal Engine 5.4", "Maya"],
-    //     "timeline": "8 weeks",
-    //     "link": "detail.html?project=04_the_door_between_worlds"
-    // },
+    "The Door Between Worlds": {
+        "category": "Animation111",
+        "date": "2025",
+        "image": "https://picsum.photos/id/235/1200/800",
+        "imageAlt": "Character Animation Sequence",
+        "brief": "Character animation showcasing combat sequences and fluid movement transitions.",
+        "description": "Character animation showcasing combat sequences and fluid movement transitions. The animation features a warrior character with a variety of attacks, defensive maneuvers, and idle animations, each with careful attention to weight and momentum.",
+        "technologies": ["Unreal Engine 5.4", "Maya"],
+        "timeline": "8 weeks",
+        "link": "detail.html?project=04_the_door_between_worlds"
+    },
     "Simple Bot": {
         "category": "Animation",
         "date": "2025",
