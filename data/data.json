@@ -79,12 +79,12 @@
     "Simple Bot": {
         "category": "Animation",
         "date": "2025",
-        "image": "https://picsum.photos/id/188/1200/800",
-        "imageAlt": "Cinematic Car Animation",
-        "brief": "A cinematic short film with dynamic, speed-focused camera work.",
-        "description": "Rigged and animated a car, producing a cinematic short film with dynamic, speed-focused camera work. Developed vehicle control logic using Blueprints to support realistic driving behavior.",
-        "technologies": ["Unreal Engine 5.4", "EMBERGEN", "Maya"],
-        "timeline": "4 months",
+        "image": "https://assets.sonniesun.com/p10_00.png",
+        "imageAlt": "Simple Bot Animation",
+        "brief": "A complete character animation system — from hand-keyed animation in Maya to in-engine implementation in Unreal Engine 5.",
+        "description": "SimpleBot focuses on creating a complete character animation system — from hand-keyed animation in Maya to in-engine implementation in Unreal Engine 5.",
+        "technologies": ["Unreal Engine 5.4", "Maya"],
+        "timeline": "2 weeks",
         "link": "detail.html?project=10_simple_bot"
     },
     "Nexus": {
@@ -101,7 +101,7 @@
     "Gibberwave": {
         "category": "Game",
         "date": "2025",
-        "image": "https://picsum.photos/id/235/1200/800",
+        "image": "https://assets.sonniesun.com/p11_00.jpg",
         "imageAlt": "Gibberwave Gameplay",
         "brief": "A text adventure game with a bit of absurd humor.",
         "description": "A text adventure game with a bit of absurd humor. Your goal is to collect and purify enough nonsense to restore the town to normal before everyone completely turns into alien creatures.",

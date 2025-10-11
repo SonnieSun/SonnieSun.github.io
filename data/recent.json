@@ -32,10 +32,10 @@
         "timeline": "9 months",
         "link": "detail.html?project=03_nexus"
     },
-        "Gibberwave": {
+    "Gibberwave": {
         "category": "Game",
         "date": "2025",
-        "image": "https://picsum.photos/id/235/1200/800",
+        "image": "https://assets.sonniesun.com/p11_00.jpg",
         "imageAlt": "Gibberwave Gameplay",
         "brief": "A text adventure game with a bit of absurd humor.",
         "description": "A text adventure game with a bit of absurd humor. Your goal is to collect and purify enough nonsense to restore the town to normal before everyone completely turns into alien creatures.",

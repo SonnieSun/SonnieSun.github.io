@@ -115,6 +115,12 @@ function renderProject(metadata, markdownContent) {
                 Your browser does not support video playback.
             </video>
         `;
+    } else if (metadata.main_game) {
+        videoElement.innerHTML = `
+            <iframe frameborder="0" src="${metadata.main_game}" allowfullscreen="" style="width: 100%; border-radius: 8px;">
+                <a href="https://yiwaii.itch.io/gibberwave">Play Gibberwave on itch.io</a>
+            </iframe>
+        `;
     } else if (metadata.main_img) {
         videoElement.innerHTML = `<img src="${metadata.main_img}" alt="${metadata.main_img_alt}" class="w-full h-auto">`;
     }
