@@ -1,6 +1,6 @@
 ---
 title: "Translucent Material Design"
-timeline: Oct 2024 - Nov 2024
+timeline: Oct 2024
 category: Rendering
 role: Sole Developer
 main_video: https://assets.sonniesun.com/p07_main.mp4

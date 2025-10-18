@@ -1,6 +1,6 @@
 ---
 title: "Abandoned Land"
-timeline: Jul 2024 - Aug 2024
+timeline: Jun 2024 - Jul 2024
 category: Rendering
 role: Sole Developer
 main_video: https://assets.sonniesun.com/p05_main.mp4

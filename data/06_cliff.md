@@ -1,6 +1,6 @@
 ---
 title: "Cliff"
-timeline: Sep 2024
+timeline: Aug 2024 - Sep 2024
 category: Rendering
 role: Sole Developer
 main_video: https://assets.sonniesun.com/p06_main.mp4

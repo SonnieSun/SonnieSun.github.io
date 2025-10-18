@@ -6,7 +6,7 @@ role: Programmer
 main_game: https://itch.io/embed-upload/15205997?color=000000
 main_img: https://assets.sonniesun.com/p11_00.jpg
 main_img_alt: game screenshot
-overview: Gibberwave is a narrative-driven text adventure game developed during a Game Jam, where I served as the programmer. Collaborated with two designers, one artist, and one sound designer to develop a 72-hour game jam project. Implemented gameplay systems, UI flow, and overall integration in Unity. Available in Ludum Dare 58 <a href="https://ldjam.com/events/ludum-dare/58/gibberwave" style="color:#ffffff;">https://ldjam.com/events/ludum-dare/58/gibberwave</a> or in Itch <a href="https://yiwaii.itch.io/gibberwave" style="color:#ffffff;">https://yiwaii.itch.io/gibberwave</a>
+overview: Gibberwave is a narrative-driven text adventure game developed during a Game Jam, where I served as the programmer. Collaborated with two designers, one artist, and one sound designer to develop a 72-hour game jam project. Implemented gameplay systems, UI flow, and overall integration in Unity. Available on Ludum Dare 58 <a href="https://ldjam.com/events/ludum-dare/58/gibberwave" target="_blank" style="color:#ffffff;">https://ldjam.com/events/ludum-dare/58/gibberwave</a> or on Itch <a href="https://yiwaii.itch.io/gibberwave" target="_blank" style="color:#ffffff;">https://yiwaii.itch.io/gibberwave</a>
 technologies: ["Ludum Dare 58", "Game Jam", "Unity"]
 img_type: 2
 img1: https://assets.sonniesun.com/p11_01.png
@@ -20,13 +20,13 @@ img2_alt: img2
 Gibberwave is a narrative-driven text adventure game developed during a Game Jam, where I served as the programmer. The player takes on the role of the only unaffected outsider in Blabber Town, deciphering nonsensical phrases influenced by alien signals. By converting these distorted dialogues into purified energy, the player gradually restores normality to the town.
 I was fully responsible for all programming work, including the dialogue and gameplay systems, UI design and transitions, localization framework, adaptive resolution, and multi-platform builds. The project was developed in Unity (C#), with a focus on creating smooth narrative interactions and responsive user experience within the limited jam timeframe.
 
-Available in Ludum Dare 58: 
+Available on Ludum Dare 58: 
 
-<a href="https://ldjam.com/events/ludum-dare/58/gibberwave" style="color:#ffffff;">https://ldjam.com/events/ludum-dare/58/gibberwave</a> 
+<a href="https://ldjam.com/events/ludum-dare/58/gibberwave" target="_blank" style="color:#ffffff;">https://ldjam.com/events/ludum-dare/58/gibberwave</a> 
 
-or in Itch: 
+or on Itch: 
 
-<a href="https://yiwaii.itch.io/gibberwave" style="color:#ffffff;">https://yiwaii.itch.io/gibberwave</a>
+<a href="https://yiwaii.itch.io/gibberwave" target="_blank" style="color:#ffffff;">https://yiwaii.itch.io/gibberwave</a>
 
 ## Technical Breakdown
 

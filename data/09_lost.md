@@ -1,6 +1,6 @@
 ---
 title: "Lost"
-timeline: Feb 2025 - Apr 2025
+timeline: Mar 2025 - May 2025
 category: Game
 role: Sole Developer
 main_video: https://assets.sonniesun.com/p09_main.mp4

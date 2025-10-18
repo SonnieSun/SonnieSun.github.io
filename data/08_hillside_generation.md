@@ -1,6 +1,6 @@
 ---
 title: "Hillside Generation"
-timeline: Dec 2024 - Feb 2025
+timeline: Nov 2024 - Feb 2025
 category: PCG
 role: Sole Developer
 main_video: https://assets.sonniesun.com/p08_main.mp4

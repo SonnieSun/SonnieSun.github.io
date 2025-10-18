@@ -1,6 +1,6 @@
 ---
 title: "Cyberpunk Cityscape"
-timeline: Nov 2024 - Dec 2024
+timeline: Jan 2025 - Feb 2025
 category: Rendering
 role: Sole Developer
 main_video: https://assets.sonniesun.com/p01_main.mp4

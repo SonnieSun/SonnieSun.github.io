@@ -1,6 +1,6 @@
 ---
 title: "The Door Between Worlds"
-timeline: Aug 2025 - Sep 2025
+timeline: Jul 2025 - Sep 2025
 category: Animation
 role: Sole Developer
 main_video: https://assets.sonniesun.com/p01_main.MP4

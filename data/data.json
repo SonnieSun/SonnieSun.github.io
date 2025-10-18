@@ -7,8 +7,52 @@
         "brief": "Created a large-scale cyberpunk city environment.",
         "description": "A large-scale cyberpunk city environment with atmospheric effects such as fog, glowing billboards, neon reflections, and Niagara-based portals connecting city zones. Cinematic cityscape renders emphasize mood, lighting, and vertical scale.",
         "technologies": ["Unreal Engine 5.4", "Cinema4D", "After Effects"],
-        "timeline": "6 weeks",
+        "timeline": "8 weeks",
         "link": "detail.html?project=01_cyberpunk_cityscape"
+    },
+    "Wasteland": {
+        "category": "PCG",
+        "date": "2025",
+        "image": "https://assets.sonniesun.com/p02_00.png",
+        "imageAlt": "Procedural City Generation",
+        "brief": "A procedural generation (PCG) project focused on creating a large-scale abandoned town environment.",
+        "description": "A procedural content generation tool for automatic building placement along defined road layouts. Enabled scalable abandoned town creation, improving workflow efficiency for level design.",
+        "technologies": ["Unreal Engine 5.4"],
+        "timeline": "8 weeks",
+        "link": "detail.html?project=02_wasteland"
+    },
+    "Nexus": {
+        "category": "Game",
+        "date": "2025",
+        "image": "https://assets.sonniesun.com/p03_0.png",
+        "imageAlt": "Nexus Gameplay Demo",
+        "brief": "A short interactive gameplay demo set in a futuristic warehouse involving a theft scenario.",
+        "description": "A short interactive gameplay demo set in a futuristic warehouse involving a theft scenario. Implemented stealth mechanics requiring the protagonist to avoid guards and navigate the environment.",
+        "technologies": ["Unreal Engine 5.4", "Maya", "Cinema4D"],
+        "timeline": "5 months",
+        "link": "detail.html?project=03_nexus"
+    },
+    "Chase": {
+        "category": "Animation111",
+        "date": "2025",
+        "image": "https://picsum.photos/id/235/1200/800",
+        "imageAlt": "Character Animation Sequence",
+        "brief": "Character animation showcasing combat sequences and fluid movement transitions.",
+        "description": "Character animation showcasing combat sequences and fluid movement transitions. The animation features a warrior character with a variety of attacks, defensive maneuvers, and idle animations, each with careful attention to weight and momentum.",
+        "technologies": ["Unreal Engine 5.4", "Maya"],
+        "timeline": "10 weeks",
+        "link": "detail.html?project=04_the_door_between_worlds"
+    },
+    "Gibberwave": {
+        "category": "Game",
+        "date": "2025",
+        "image": "https://assets.sonniesun.com/p11_00.jpg",
+        "imageAlt": "Gibberwave Gameplay",
+        "brief": "This game was created for Ludum Dare 58, themed \"Collector\". It’s a text-based adventure game developed during the game jam.",
+        "description": "A text adventure game with a bit of absurd humor. Your goal is to collect and purify enough nonsense to restore the town to normal before everyone completely turns into alien creatures.",
+        "technologies": ["Ludum Dare 58", "Game Jam", "Unity"],
+        "timeline": "3 days",
+        "link": "detail.html?project=11_gibberwave"
     },
     "Cliff": {
         "category": "Rendering",
@@ -40,19 +84,8 @@
         "brief": "Developed physically-based translucent shaders, showcasing accurate light scattering and transmission effects.",
         "description": "Developed physically-based translucent shaders for lanterns, jade, and crystals, showcasing accurate light scattering and transmission effects.",
         "technologies": ["Unreal Engine 5.1"],
-        "timeline": "2 weeks",
+        "timeline": "3 weeks",
         "link": "detail.html?project=07_translucent_material_design"
-    },
-    "Wasteland": {
-        "category": "PCG",
-        "date": "2025",
-        "image": "https://assets.sonniesun.com/p02_00.png",
-        "imageAlt": "Procedural City Generation",
-        "brief": "A procedural generation (PCG) project focused on creating a large-scale abandoned town environment.",
-        "description": "A procedural content generation tool for automatic building placement along defined road layouts. Enabled scalable abandoned town creation, improving workflow efficiency for level design.",
-        "technologies": ["Unreal Engine 5.4"],
-        "timeline": "8 weeks",
-        "link": "detail.html?project=02_wasteland"
     },
     "Hillside Generation": {
         "category": "PCG",
@@ -62,19 +95,19 @@
         "brief": "Hillside Generation explores procedural content generation (PCG) in Unreal Engine.",
         "description": "Hillside Generation explores procedural content generation (PCG) in Unreal Engine to create natural environments such as rocky cliffs, dense forests, and roadside vegetation.",
         "technologies": ["Unreal Engine 5.4"],
-        "timeline": "7 weeks",
+        "timeline": "10 weeks",
         "link": "detail.html?project=08_hillside_generation"
     },
-    "The Door Between Worlds": {
-        "category": "Animation111",
+    "Lost": {
+        "category": "Game",
         "date": "2025",
-        "image": "https://picsum.photos/id/235/1200/800",
-        "imageAlt": "Character Animation Sequence",
-        "brief": "Character animation showcasing combat sequences and fluid movement transitions.",
-        "description": "Character animation showcasing combat sequences and fluid movement transitions. The animation features a warrior character with a variety of attacks, defensive maneuvers, and idle animations, each with careful attention to weight and momentum.",
-        "technologies": ["Unreal Engine 5.4", "Maya"],
-        "timeline": "8 weeks",
-        "link": "detail.html?project=04_the_door_between_worlds"
+        "image": "https://assets.sonniesun.com/p09_00.png",
+        "imageAlt": "Lost Gameplay Demo",
+        "brief": "A first-person horror shooter demo developed in Unreal Engine, focusing on immersive atmosphere and interactive gameplay.",
+        "description": "A first-person character system with weapon handling and shooting mechanics. Designed AI enemy behavior with distinct movement and attack patterns.",
+        "technologies": ["Unreal Engine 5.4", "Maya", "Cinema4D"],
+        "timeline": "10 weeks",
+        "link": "detail.html?project=09_lost"
     },
     "Simple Bot": {
         "category": "Animation",
@@ -86,38 +119,5 @@
         "technologies": ["Unreal Engine 5.4", "Maya"],
         "timeline": "2 weeks",
         "link": "detail.html?project=10_simple_bot"
-    },
-    "Nexus": {
-        "category": "Game",
-        "date": "2025",
-        "image": "https://assets.sonniesun.com/p03_0.png",
-        "imageAlt": "Nexus Gameplay Demo",
-        "brief": "A short interactive gameplay demo set in a futuristic warehouse involving a theft scenario.",
-        "description": "A short interactive gameplay demo set in a futuristic warehouse involving a theft scenario. Implemented stealth mechanics requiring the protagonist to avoid guards and navigate the environment.",
-        "technologies": ["Unreal Engine 5.4", "Maya", "Cinema4D"],
-        "timeline": "9 months",
-        "link": "detail.html?project=03_nexus"
-    },
-    "Gibberwave": {
-        "category": "Game",
-        "date": "2025",
-        "image": "https://assets.sonniesun.com/p11_00.jpg",
-        "imageAlt": "Gibberwave Gameplay",
-        "brief": "This game was created for Ludum Dare 58, themed \"Collector\". It’s a text-based adventure game developed during the game jam.",
-        "description": "A text adventure game with a bit of absurd humor. Your goal is to collect and purify enough nonsense to restore the town to normal before everyone completely turns into alien creatures.",
-        "technologies": ["Ludum Dare 58", "Game Jam", "Unity"],
-        "timeline": "3 days",
-        "link": "detail.html?project=11_gibberwave"
-    },
-    "Lost": {
-        "category": "Game",
-        "date": "2025",
-        "image": "https://assets.sonniesun.com/p09_00.png",
-        "imageAlt": "Lost Gameplay Demo",
-        "brief": "A first-person horror shooter demo developed in Unreal Engine, focusing on immersive atmosphere and interactive gameplay.",
-        "description": "A first-person character system with weapon handling and shooting mechanics. Designed AI enemy behavior with distinct movement and attack patterns.",
-        "technologies": ["Unreal Engine 5.4", "Maya", "Cinema4D"],
-        "timeline": "3 months",
-        "link": "detail.html?project=09_lost"
     }
 }

@@ -1,6 +1,6 @@
 ---
 title: "Nexus"
-timeline: Jan 2025 - Sep 2025
+timeline: Apr 2025 - Sep 2025
 category: Game
 role: Sole Developer
 main_video: https://assets.sonniesun.com/p03_main.mp4
