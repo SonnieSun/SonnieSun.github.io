@@ -7,7 +7,7 @@
         "brief": "Created a large-scale cyberpunk city environment.",
         "description": "A large-scale cyberpunk city environment with atmospheric effects such as fog, glowing billboards, neon reflections, and Niagara-based portals connecting city zones. Cinematic cityscape renders emphasize mood, lighting, and vertical scale.",
         "technologies": ["Unreal Engine 5.4", "Cinema4D", "After Effects"],
-        "timeline": "6 weeks",
+        "timeline": "8 weeks",
         "link": "detail.html?project=01_cyberpunk_cityscape"
     },
     "Wasteland": {
@@ -29,7 +29,7 @@
         "brief": "A short interactive gameplay demo set in a futuristic warehouse involving a theft scenario.",
         "description": "A short interactive gameplay demo set in a futuristic warehouse involving a theft scenario. Implemented stealth mechanics requiring the protagonist to avoid guards and navigate the environment.",
         "technologies": ["Unreal Engine 5.4", "Maya", "Cinema4D"],
-        "timeline": "9 months",
+        "timeline": "5 months",
         "link": "detail.html?project=03_nexus"
     },
     "Gibberwave": {
