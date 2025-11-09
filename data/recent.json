@@ -10,7 +10,7 @@
         "timeline": "8 weeks",
         "link": "detail.html?project=01_cyberpunk_cityscape"
     },
-    "Wasteland": {
+    "The Edge District": {
         "category": "PCG",
         "date": "2025",
         "image": "https://assets.sonniesun.com/p02_00.png",
@@ -19,15 +19,15 @@
         "description": "A procedural content generation tool for automatic building placement along defined road layouts. Enabled scalable abandoned town creation, improving workflow efficiency for level design.",
         "technologies": ["Unreal Engine 5.4"],
         "timeline": "8 weeks",
-        "link": "detail.html?project=02_wasteland"
+        "link": "detail.html?project=02_edge_district"
     },
     "Nexus": {
         "category": "Game",
         "date": "2025",
         "image": "https://assets.sonniesun.com/p03_0.png",
         "imageAlt": "Nexus Gameplay Demo",
-        "brief": "A short interactive gameplay demo set in a futuristic warehouse involving a theft scenario.",
-        "description": "A short interactive gameplay demo set in a futuristic warehouse involving a theft scenario. Implemented stealth mechanics requiring the protagonist to avoid guards and navigate the environment.",
+        "brief": "A short interactive gameplay demo set in a futuristic apartment involving a theft scenario.",
+        "description": "A short interactive gameplay demo set in a futuristic apartment involving a theft scenario. Implemented stealth mechanics requiring the protagonist to avoid guards and navigate the environment.",
         "technologies": ["Unreal Engine 5.4", "Maya", "Cinema4D"],
         "timeline": "5 months",
         "link": "detail.html?project=03_nexus"

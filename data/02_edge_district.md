@@ -1,12 +1,12 @@
 ---
-title: "Wasteland"
+title: "The Edge District"
 timeline: Mar 2025 - Apr 2025
 category: PCG
 role: Sole Developer
 main_video: https://assets.sonniesun.com/p02_main.mp4
 main_img: https://assets.sonniesun.com/p02_00.png
 main_img_alt: city layout image
-overview: Wasteland is a procedural generation (PCG) project focused on creating a large-scale abandoned town environment. The goal was to design automated PCG tools for buildings, roads, moss, and vines, while also controlling atmosphere and mood through lighting, fog, and VFX.
+overview: The Edge District is a procedural generation (PCG) project focused on creating a large-scale abandoned town environment. The goal was to design automated PCG tools for buildings, roads, moss, and vines, while also controlling atmosphere and mood through lighting, fog, and VFX.
 technologies: ["Unreal Engine 5.4"]
 img_type: 1
 img1: https://assets.sonniesun.com/p02_01.png
@@ -25,7 +25,7 @@ img6_alt: img6
 
 ## Project Overview
 
-Wasteland is a procedural generation (PCG) project focused on creating a large-scale abandoned town environment. The goal was to design automated PCG tools for buildings, roads, moss, and vines, while also controlling atmosphere and mood through lighting, fog, and VFX. By combining spline-based generation, randomization systems, and Niagara particle effects, the project simulates a ruined, oppressive environment that feels both expansive and immersive, suitable for cinematic or game-ready scenes.
+The Edge District is a procedural generation (PCG) project focused on creating a large-scale abandoned town environment. The goal was to design automated PCG tools for buildings, roads, moss, and vines, while also controlling atmosphere and mood through lighting, fog, and VFX. By combining spline-based generation, randomization systems, and Niagara particle effects, the project simulates a ruined, oppressive environment that feels both expansive and immersive, suitable for cinematic or game-ready scenes.
 
 ## Technical Breakdown
 
