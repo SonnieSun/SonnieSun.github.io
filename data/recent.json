@@ -26,9 +26,9 @@
         "date": "2025",
         "image": "https://assets.sonniesun.com/p03_0.png",
         "imageAlt": "Nexus Gameplay Demo",
-        "brief": "A short interactive gameplay demo set in a futuristic apartment involving a theft scenario.",
-        "description": "A short interactive gameplay demo set in a futuristic apartment involving a theft scenario. Implemented stealth mechanics requiring the protagonist to avoid guards and navigate the environment.",
-        "technologies": ["Unreal Engine 5.4", "Maya", "Cinema4D"],
+        "brief": "A third-person cyberpunk stealth game prototype developed in Unreal Engine.",
+        "description": "Nexus is a third-person cyberpunk stealth game prototype developed in Unreal Engine.",
+        "technologies": ["Unreal Engine 5.6"],
         "timeline": "5 months",
         "link": "detail.html?project=03_nexus"
     },

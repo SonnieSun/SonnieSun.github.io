@@ -6,7 +6,7 @@ role: Sole Developer
 main_video: https://assets.sonniesun.com/p03_main.mp4
 main_img: https://assets.sonniesun.com/p03_0.png
 main_img_alt: game demo image
-overview: Nexus is a third-person stealth demo developed in Unreal Engine, focusing on immersive atmosphere and interactive gameplay. The project combines core mechanics—movement, aiming, shooting, reloading—with cyberpunk storytelling elements such as eerie lighting, sudden interactions, and atmospheric sound design.
+overview: Nexus is a third-person cyberpunk stealth game prototype developed in Unreal Engine. The player controls Molly, a rogue operative who must infiltrate a futuristic apartment complex, evade patrolling enemies, and steal a crystal hidden inside a secured vault.
 technologies: ["Unreal Engine 5.4", "Maya", "Cinema4D"]
 img_type: 1
 img1: https://assets.sonniesun.com/p03_1.png
@@ -25,99 +25,99 @@ img6_alt: img6
 
 ## Project Overview
 
-Nexus is a third-person stealth demo developed in Unreal Engine, focusing on immersive atmosphere and interactive gameplay. The project combines core mechanics—movement, aiming, shooting, reloading—with horror storytelling elements such as eerie lighting, sudden interactions, and atmospheric sound design. By integrating post-processing effects, dynamic enemy AI, and environment-driven scares, the demo creates a cohesive experience blending action gameplay with psychological tension.
+Nexus is a third-person cyberpunk stealth game prototype developed in Unreal Engine. The player controls Molly, a rogue operative who must infiltrate a futuristic apartment complex, evade patrolling enemies, and steal a crystal hidden inside a secured vault.
+The project combines AI-driven stealth gameplay, cinematic environment lighting, and stylized post-processing effects to create a tense and atmospheric experience. 
 
 ## Technical Breakdown
 
-### 01 Building the First-Person Framework
+### 01 Third-Person Player Framework
 
-<img src="https://assets.sonniesun.com/p09_c_01.png" alt="Markdown Pic 01" style="display: block; max-width: min(100%, 800px); height: auto;" />
+（01 第三人称角色蓝图截图）
+（02 第三人称角色动画状态机截图）
 
-- Established a smooth and responsive first-person system with basic weapon mechanics.
+- Built a third-person character blueprint and animation state machine supporting walking, sneaking, and transitions between them, ensuring fluid gameplay and natural animation blending.
 
-<img src="https://assets.sonniesun.com/p09_c_02.png" alt="Markdown Pic 02" style="display: block; max-width: min(100%, 800px); height: auto;" />
+### 02 Enemy AI Behavior
+- Designed enemies that react intelligently to the player’s presence.
 
-- Implemented a first-person character blueprint and animation state machine to support walking, running, aiming, shooting, and reloading with corresponding animations.
+（03 敌人蓝图逻辑截图）
 
-### 02 Simulating Weapon Feedback
+- Created an AI patrol system with visual and auditory detection. Enemies smoothly transition from patrolling to chasing once they detect the player, pursuing until the player hides or escapes.
 
-<img src="https://assets.sonniesun.com/p09_c_03.png" alt="Markdown Pic 03" style="display: block; max-width: min(100%, 800px); height: auto;" />
+### 03 “Super Vision” Skill Design
 
-- Conveyed impactful shooting through visual and gameplay feedback.
-- Added camera shake for recoil to simulate realistic hit feedback.
+（04 后期材质球蓝图截图）
 
-<img src="https://assets.sonniesun.com/p09_c_04.png" alt="Markdown Pic 04" style="display: block; max-width: min(100%, 800px); height: auto;" />
+- Implemented a post-processing material effect that outlines enemies’ sight and hearing ranges in a stylized “hacker” visual overlay, 
+- Represented Molly’s enhanced perception and reinforced the cyberpunk aesthetic and gameplay clarity.
 
-- designed a bullet blueprint with velocity and damage properties.
+### 04 Environment Construction
 
-### 03 Enemy Behavior Implementation
+（05 走廊1截图）
+（06 客厅截图）
+（07 走廊2截图）
+（08 卫生间截图）
+（09 书房截图）
 
-<img src="https://assets.sonniesun.com/p09_c_05.png" alt="Markdown Pic 05" style="display: block; max-width: min(100%, 800px); height: auto;" />
+- Designed multiple interior spaces (hallways, living room, study, bathroom) 
+- Used practical light sources such as lamps and windows. 
+- Added neon trims and reflective surfaces to accentuate futuristic details while maintaining low-intensity, high-contrast lighting for mood and stealth.
 
-- Designed AI that reacts believably to player actions.
-- Developed enemy logic with health bars, death detection, and animations
-- Developed vision-based detection that triggers pursuit and attack behaviors.
+### 05 Interactive Elements
+- Added interactive sequences such as:
 
-### 04 Environment Design
+（10 点击开始游戏后主角跳下的动画）
 
-<img src="https://assets.sonniesun.com/p03_c_100.png" alt="Markdown Pic 07" style="display: block; max-width: min(100%, 800px); height: auto;" />
-<img src="https://assets.sonniesun.com/p03_c_102.png" alt="Markdown Pic 08" style="display: block; max-width: min(100%, 800px); height: auto;" />
+- Intro animation after “Start Game” click
 
-- Created a ciberpunk-style and coherent environment.
+（11 房间门蓝图逻辑）
 
-<img src="https://assets.sonniesun.com/p03_c_104.png" alt="Markdown Pic 09" style="display: block; max-width: min(100%, 800px); height: auto;" />
-<img src="https://assets.sonniesun.com/p03_c_106.png" alt="Markdown Pic 10" style="display: block; max-width: min(100%, 800px); height: auto;" />
+- Automatic door opening when the player approaches
 
-- Used sci-fi assets to construct a future-style apartment.
-- Refined with lighting, decals, and adjusted materials for a unified dilapidated look and oppressive atmosphere.
+（12 敌人抓捕动画）
 
-### 05 Post-Processing Effects
-- Enhanced immersion with horror-style visual distortions, using both material shaders and C++ code, finalizing a layered post-processing pipeline.
-
-<img src="https://assets.sonniesun.com/p09_c_12.png" alt="Markdown Pic 12" style="display: block; max-width: min(100%, 800px); height: auto;" />
-
-- Designed camera-based blur effects.
-
-<img src="https://assets.sonniesun.com/p09_c_13.png" alt="Markdown Pic 13" style="display: block; max-width: min(100%, 800px); height: auto;" />
-
-- Designed camera-based fisheye effects.
-
-<img src="https://assets.sonniesun.com/p09_c_14.png" alt="Markdown Pic 14" style="display: block; max-width: min(100%, 800px); height: auto;" />
-
-- Designed camera-based vignette effects.
+- Capture animation when caught by enemies
+- These interactions enhance immersion and narrative flow.
 
 ### 06 User Interface
 
-<img src="https://assets.sonniesun.com/p09_c_18.png" alt="Markdown Pic 18" style="display: block; max-width: min(100%, 200px); height: auto;" />
+（13 开始界面截图）
 
-- Integrated enemy health bars.
+- Integrated start menu.
 
-<img src="https://assets.sonniesun.com/p09_c_19.png" alt="Markdown Pic 19" style="display: block; max-width: min(100%, 200px); height: auto;" />
+（14 教学提示悬浮文字截图）
 
-- Integrated flashlight toggle prompts.
+- Integrated tutorial prompts.
+
+（15 保险箱互动悬浮文字截图）
+
+-  Integrated interaction prompts.
+
+（16 感谢游玩截图）
+- Integrated end menu.
 
 ### 07 Sound Design
-- Aligned audio cues with both action and horror pacing.
+- Aligned audio cues with both action and pacing.
 
-<img src="https://assets.sonniesun.com/p09_c_20.png" alt="Markdown Pic 20" style="display: block; max-width: min(100%, 200px); height: auto;" />
+（17 敌人脚步声添加截图）
 
-- Used Animation Notifies for precise timing of shooting sounds
+- Used Animation Notifies for precise timing of enemy footsteps
 
-<img src="https://assets.sonniesun.com/p09_c_21.png" alt="Markdown Pic 21" style="display: block; max-width: min(100%, 200px); height: auto;" />
+（18 超级视野技能音效蓝图逻辑截图）
 
 - Used blueprint Play Sound functions for environmental interactions.
 
-### 08 Packaging & Deployment
+### 08 Packaging and Deployment
 
-<img src="https://assets.sonniesun.com/p09_c_22.png" alt="Markdown Pic 22" style="display: block; max-width: min(100%, 300px); height: auto;" />
+（19 打包目录截图）
 
-- Delivered a standalone playable demo.
-- Successfully packaged the project using Unreal Engine’s Package Project tool to produce a functional executable.
+- Packaged the entire project into an executable build (.exe) using Unreal’s Package Project workflow for distribution and playtesting.
+
 
 ## Takeaways
 
-1. Strengthened ability to design gameplay systems, from character controllers to weapon mechanics.
-2. Learned to balance horror atmosphere with interactive gameplay, ensuring both tension and playability.
-3. Gained practical experience in AI behavior scripting, environment storytelling, and post-processing effects.
-4. Improved workflow for integrating sound, VFX, and UI into a unified experience.
-5. Completed the full pipeline of a demo production, including packaging and deployment, which provided insight into preparing game projects for distribution.
+1. Strengthened skills in AI-driven gameplay design, post-processing effects, and interactive environment scripting.
+2. Learned how to combine lighting, sound, and atmosphere to enhance stealth gameplay tension.
+3. Gained deeper understanding of animation state machines, blueprint scripting, and player feedback systems in Unreal Engine.
+4. Explored how visual design choices (neon lighting, perception overlays) can reinforce both gameplay clarity and thematic tone.
+5. Completed a full prototype pipeline — from design and implementation to packaging — reflecting a complete, self-contained game experience.

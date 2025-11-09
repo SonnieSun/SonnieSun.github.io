@@ -131,16 +131,18 @@
     <!-- Showreel Section -->
     <section id="showreel" class="py-20 bg-dark-light relative">
         <div class="container mx-auto px-4 md:px-8">
-            <video controls style="width: 100%; border-radius: 8px;">
-                <source src="https://assets.sonniesun.com/p01_main.mp4" type="video/mp4">
-                Your browser does not support video playback.
-            </video>
+            <div id="project-video" class="rounded-2xl overflow-hidden shadow-2xl image-zoom animate-fade-in" style="animation-delay: 0.2s">
+                <video controls style="width: 100%; border-radius: 8px;">
+                    <source src="https://assets.sonniesun.com/p01_main.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
 
             <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <a href="#recent" class="text-gray-400 hover:text-primary text-2xl">
-                <i class="fa fa-chevron-down"></i>
-            </a>
-        </div>
+                <a href="#recent" class="text-gray-400 hover:text-primary text-2xl">
+                    <i class="fa fa-chevron-down"></i>
+                </a>
+            </div>
         </div>
     </section>
 
