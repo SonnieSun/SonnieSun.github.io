@@ -39,7 +39,7 @@
         "imageAlt": "Chasing Animation Sequence",
         "brief": "A cinematic chase sequence set in the world of Nexus.",
         "description": "A cinematic chase sequence set in the world of Nexus, depicting the moment when the protagonist Molly fails her heist and leaps out of a window as enemies pursue her.",
-        "technologies": ["Unreal Engine 5.4", "Unreal Engine 5.6", "Maya"],
+        "technologies": ["Unreal Engine 5.6", "Maya", "Cascadeur", "Blender", "After Effects"],
         "timeline": "10 weeks",
         "link": "detail.html?project=04_chase_animation"
     },

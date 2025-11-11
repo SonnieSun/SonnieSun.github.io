@@ -7,7 +7,7 @@ main_video: https://assets.sonniesun.com/p03_main.mp4
 main_img: https://assets.sonniesun.com/p03_0.png
 main_img_alt: game demo image
 overview: Nexus is a third-person cyberpunk stealth game prototype developed in Unreal Engine. The player controls Molly, a rogue operative who must infiltrate a futuristic apartment complex, evade patrolling enemies, and steal a crystal hidden inside a secured vault.
-technologies: ["Unreal Engine 5.4", "Maya", "Cinema4D"]
+technologies: ["Unreal Engine 5.4", "Unreal Engine 5.6"]
 img_type: 1
 img1: https://assets.sonniesun.com/p03_1.png
 img1_alt: img1
@@ -53,11 +53,10 @@ The project combines AI-driven stealth gameplay, cinematic environment lighting,
 
 ### 04 Environment Construction
 
-（05 走廊1截图）
-（06 客厅截图）
-（07 走廊2截图）
-（08 卫生间截图）
-（09 书房截图）
+（05 客厅截图）
+（06 卫生间截图）
+（07 卧室截图）
+（08 储藏室截图）
 
 - Designed multiple interior spaces (hallways, living room, study, bathroom) 
 - Used practical light sources such as lamps and windows. 
@@ -66,50 +65,50 @@ The project combines AI-driven stealth gameplay, cinematic environment lighting,
 ### 05 Interactive Elements
 - Added interactive sequences such as:
 
-（10 点击开始游戏后主角跳下的动画）
+（09 点击开始游戏后主角跳下的动画）
 
 - Intro animation after “Start Game” click
 
-（11 房间门蓝图逻辑）
+（10 房间门蓝图逻辑）
 
 - Automatic door opening when the player approaches
 
-（12 敌人抓捕动画）
+（11 敌人抓捕动画）
 
 - Capture animation when caught by enemies
 - These interactions enhance immersion and narrative flow.
 
 ### 06 User Interface
 
-（13 开始界面截图）
+（12 开始界面截图）
 
 - Integrated start menu.
 
-（14 教学提示悬浮文字截图）
+（13 教学提示悬浮文字截图）
 
 - Integrated tutorial prompts.
 
-（15 保险箱互动悬浮文字截图）
+（14 保险箱互动悬浮文字截图）
 
 -  Integrated interaction prompts.
 
-（16 感谢游玩截图）
+（15 感谢游玩截图）
 - Integrated end menu.
 
 ### 07 Sound Design
 - Aligned audio cues with both action and pacing.
 
-（17 敌人脚步声添加截图）
+（16 敌人脚步声添加截图）
 
 - Used Animation Notifies for precise timing of enemy footsteps
 
-（18 超级视野技能音效蓝图逻辑截图）
+（17 超级视野技能音效蓝图逻辑截图）
 
 - Used blueprint Play Sound functions for environmental interactions.
 
 ### 08 Packaging and Deployment
 
-（19 打包目录截图）
+（18 打包目录截图）
 
 - Packaged the entire project into an executable build (.exe) using Unreal’s Package Project workflow for distribution and playtesting.
 
