@@ -7,7 +7,7 @@ main_video: https://assets.sonniesun.com/p01_main.MP4
 main_img: https://assets.sonniesun.com/04_Chase/p04_00.png
 main_img_alt: animation screenshot
 overview: Chase Animation is a cinematic chase sequence set in the world of Nexus, depicting the moment when the protagonist Molly fails her heist and leaps out of a window as enemies pursue her. The project focuses on the integration of character animation, facial capture, VFX, and post-production to create a dynamic and emotional short.
-technologies: ["Unreal Engine 5.6", "Maya", "Cascadeur", "Blender", "After Effects"]
+technologies: ["Unreal Engine 5.6", "Maya", "Cascadeur", "After Effects"]
 img_type: 1
 img1: https://assets.sonniesun.com/04_Chase/p04_01.png
 img1_alt: img1
@@ -70,7 +70,7 @@ The animation was produced using Maya, Cascadeur, MetaHuman, Blender, Unreal Eng
 
 <img src="https://assets.sonniesun.com/04_Chase/p04_c_09.png" alt="Markdown Pic 09" style="display: block; max-width: min(100%, 800px); height: auto;" />
 
-- Modeled fragmented glass meshes in Blender and imported them into Unreal. 
+- Modeled fragmented glass meshes in Maya and imported them into Unreal. 
 
 <img src="https://assets.sonniesun.com/04_Chase/p04_c_10.png" alt="Markdown Pic 10" style="display: block; max-width: min(100%, 600px); height: auto;" />
 

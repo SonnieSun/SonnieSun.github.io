@@ -24,7 +24,7 @@
     "Nexus": {
         "category": "Game",
         "date": "2025",
-        "image": "https://assets.sonniesun.com/p03_0.png",
+        "image": "https://assets.sonniesun.com/03_Nexus/p03_0.png",
         "imageAlt": "Nexus Gameplay Demo",
         "brief": "A third-person cyberpunk stealth game prototype developed in Unreal Engine.",
         "description": "Nexus is a third-person cyberpunk stealth game prototype developed in Unreal Engine.",
@@ -39,7 +39,7 @@
         "imageAlt": "Chasing Animation Sequence",
         "brief": "A cinematic chase sequence set in the world of Nexus.",
         "description": "A cinematic chase sequence set in the world of Nexus, depicting the moment when the protagonist Molly fails her heist and leaps out of a window as enemies pursue her.",
-        "technologies": ["Unreal Engine 5.6", "Maya", "Cascadeur", "Blender", "After Effects"],
+        "technologies": ["Unreal Engine 5.6", "Maya", "Cascadeur", "After Effects"],
         "timeline": "10 weeks",
         "link": "detail.html?project=04_chase_animation"
     },
