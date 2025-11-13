@@ -6,7 +6,7 @@ role: Sole Developer
 main_video: https://assets.sonniesun.com/00_Videos/04_Nexus.mp4
 main_img: https://assets.sonniesun.com/03_Nexus/p03_0.png
 main_img_alt: game demo image
-overview: Nexus is a third-person cyberpunk stealth game prototype developed in Unreal Engine. The player controls Molly, a rogue operative who must infiltrate a futuristic apartment complex, evade patrolling enemies, and steal a crystal hidden inside a secured vault.
+overview: Nexus is a third-person cyberpunk stealth game prototype developed in Unreal Engine. The player controls Molly, a rogue operative who must infiltrate a futuristic apartment complex, evade patrolling enemies, and steal a crystal hidden inside a secured vault. 
 technologies: ["Unreal Engine 5.4", "Unreal Engine 5.6"]
 img_type: 1
 img1: https://assets.sonniesun.com/03_Nexus/p03_1.png
@@ -27,6 +27,9 @@ img6_alt: img6
 
 Nexus is a third-person cyberpunk stealth game prototype developed in Unreal Engine. The player controls Molly, a rogue operative who must infiltrate a futuristic apartment complex, evade patrolling enemies, and steal a crystal hidden inside a secured vault.
 The project combines AI-driven stealth gameplay, cinematic environment lighting, and stylized post-processing effects to create a tense and atmospheric experience. 
+Download the playable build here:
+
+<a href="https://drive.google.com/file/d/1AU1EmMez9vqaMZnTlUelg3rj1hE-Age7/view?usp=drive_link" target="_blank" style="color:#ffffff;">Google Drive</a> 
 
 ## Technical Breakdown
 
