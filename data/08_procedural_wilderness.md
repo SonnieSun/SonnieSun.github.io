@@ -1,12 +1,12 @@
 ---
-title: "Hillside Generation"
+title: "Procedural Wilderness"
 timeline: Nov 2024 - Feb 2025
 category: PCG
 role: Sole Developer
-main_video: https://assets.sonniesun.com/p08_main.mp4
+main_video: https://assets.sonniesun.com/00_Videos/05_Wilderness.mp4
 main_img: https://assets.sonniesun.com/p08_00.png
 main_img_alt: hillside environment image
-overview: Hillside Generation explores procedural content generation (PCG) in Unreal Engine to create natural environments such as rocky cliffs, dense forests, and roadside vegetation. The project focuses on developing custom PCG tools—for rocks, forests, and multi-layer foliage—that automate repetitive environment building tasks while maintaining artistic control.
+overview: Procedural Wilderness explores procedural content generation (PCG) in Unreal Engine to create natural environments such as rocky cliffs, dense forests, and roadside vegetation. The project focuses on developing custom PCG tools—for rocks, forests, and multi-layer foliage—that automate repetitive environment building tasks while maintaining artistic control.
 technologies: ["Unreal Engine 5.4"]
 img_type: 1
 img1: https://assets.sonniesun.com/p08_01.png
@@ -25,7 +25,7 @@ img6_alt: img6
 
 ## Project Overview
 
-Hillside Generation explores procedural content generation (PCG) in Unreal Engine to create natural environments such as rocky cliffs, dense forests, and roadside vegetation. The project focuses on developing custom PCG tools—for rocks, forests, and multi-layer foliage—that automate repetitive environment building tasks while maintaining artistic control. By combining blueprint-driven randomization, spline-based placement, and Niagara effects, the project achieves scalable scene generation that remains visually diverse and efficient.
+Procedural Wilderness explores procedural content generation (PCG) in Unreal Engine to create natural environments such as rocky cliffs, dense forests, and roadside vegetation. The project focuses on developing custom PCG tools—for rocks, forests, and multi-layer foliage—that automate repetitive environment building tasks while maintaining artistic control. By combining blueprint-driven randomization, spline-based placement, and Niagara effects, the project achieves scalable scene generation that remains visually diverse and efficient.
 
 ## Technical Breakdown
 

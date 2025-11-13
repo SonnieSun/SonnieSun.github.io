@@ -3,7 +3,7 @@ title: "Nexus"
 timeline: Apr 2025 - Sep 2025
 category: Game
 role: Sole Developer
-main_video: https://assets.sonniesun.com/p03_main.mp4
+main_video: https://assets.sonniesun.com/00_Videos/04_Nexus.mp4
 main_img: https://assets.sonniesun.com/03_Nexus/p03_0.png
 main_img_alt: game demo image
 overview: Nexus is a third-person cyberpunk stealth game prototype developed in Unreal Engine. The player controls Molly, a rogue operative who must infiltrate a futuristic apartment complex, evade patrolling enemies, and steal a crystal hidden inside a secured vault.

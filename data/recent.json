@@ -53,5 +53,16 @@
         "technologies": ["Ludum Dare 58", "Game Jam", "Unity"],
         "timeline": "3 days",
         "link": "detail.html?project=11_gibberwave"
+    },
+    "Procedural Wilderness": {
+        "category": "PCG",
+        "date": "2025",
+        "image": "https://assets.sonniesun.com/p08_00.png",
+        "imageAlt": "Procedural Hillside Generation",
+        "brief": "Procedural Wilderness explores procedural content generation (PCG) in Unreal Engine.",
+        "description": "Procedural Wilderness explores procedural content generation (PCG) in Unreal Engine to create natural environments such as rocky cliffs, dense forests, and roadside vegetation.",
+        "technologies": ["Unreal Engine 5.4"],
+        "timeline": "10 weeks",
+        "link": "detail.html?project=08_procedural_wilderness"
     }
 }

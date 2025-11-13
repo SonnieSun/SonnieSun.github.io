@@ -3,7 +3,7 @@ title: "Cyberpunk Cityscape"
 timeline: Jan 2025 - Feb 2025
 category: Rendering
 role: Sole Developer
-main_video: https://assets.sonniesun.com/p01_main.mp4
+main_video: https://assets.sonniesun.com/00_Videos/01_Cybercity.mp4
 main_img: https://assets.sonniesun.com/p01_00.png
 main_img_alt: city layout image
 overview: This project, Cyberpunk Cityscape – Environment & Lighting Rendering, explores the creation of a cyberpunk-inspired night city environment with a strong focus on composition, atmosphere, and material-driven visual effects.

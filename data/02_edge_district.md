@@ -3,7 +3,7 @@ title: "The Edge District"
 timeline: Mar 2025 - Apr 2025
 category: PCG
 role: Sole Developer
-main_video: https://assets.sonniesun.com/p02_main.mp4
+main_video: https://assets.sonniesun.com/00_Videos/02_Edge.mp4
 main_img: https://assets.sonniesun.com/p02_00.png
 main_img_alt: city layout image
 overview: The Edge District is a procedural generation (PCG) project focused on creating a large-scale abandoned town environment. The goal was to design automated PCG tools for buildings, roads, moss, and vines, while also controlling atmosphere and mood through lighting, fog, and VFX.

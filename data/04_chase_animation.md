@@ -3,7 +3,7 @@ title: "Chase Animation"
 timeline: Jul 2025 - Sep 2025
 category: Animation
 role: Sole Developer
-main_video: https://assets.sonniesun.com/p01_main.MP4
+main_video: https://assets.sonniesun.com/00_Videos/03_Chase.mp4
 main_img: https://assets.sonniesun.com/04_Chase/p04_00.png
 main_img_alt: animation screenshot
 overview: Chase Animation is a cinematic chase sequence set in the world of Nexus, depicting the moment when the protagonist Molly fails her heist and leaps out of a window as enemies pursue her. The project focuses on the integration of character animation, facial capture, VFX, and post-production to create a dynamic and emotional short.
