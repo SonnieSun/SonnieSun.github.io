@@ -27,7 +27,7 @@ img6_alt: img6
 
 Nexus is a third-person cyberpunk stealth game prototype developed in Unreal Engine. The player controls Molly, a rogue operative who must infiltrate a futuristic apartment complex, evade patrolling enemies, and steal a crystal hidden inside a secured vault.
 The project combines AI-driven stealth gameplay, cinematic environment lighting, and stylized post-processing effects to create a tense and atmospheric experience. 
-Download the playable build here:
+Download the playable build(Windows Platform) here:
 
 <a href="https://drive.google.com/file/d/1AU1EmMez9vqaMZnTlUelg3rj1hE-Age7/view?usp=drive_link" target="_blank" style="color:#ffffff;">Google Drive</a> 
 
